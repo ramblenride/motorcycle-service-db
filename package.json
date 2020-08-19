@@ -1,0 +1,30 @@
+{
+  "name": "motorcycle-service-db",
+  "version": "0.1.0",
+  "description": "A simple collection of motorcycle service schedules in JSON format.",
+  "main": "gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "grunt"
+  },
+  "author": "Sébastien Côté",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ramblenride/motorcycle-service-db.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ramblenride/motorcycle-service-db/issues"
+  },
+  "homepage": "https://github.com/ramblenride/motorcycle-service-db",
+  "keywords": [
+    "json",
+    "motorcycle"
+  ],
+  "devDependencies": {
+    "del": "^5.1.0",
+    "grunt": "^1.2.0",
+    "grunt-contrib-clean": "^2.0.0",
+    "grunt-jsonlint": "^2.1.2"
+  }
+}

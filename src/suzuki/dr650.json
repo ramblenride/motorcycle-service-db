@@ -1,0 +1,206 @@
+{
+   "motorcycles": [
+      {
+         "description": "All variants of the Suzuki DR650 from 1996 to now.",
+         "name": "Suzuki DR650 1996 -",
+         "tasks": [
+            {
+               "description": "Measure and adjust the valve clearance.",
+               "intervalKm": 12000,
+               "intervalMonths": 24,
+               "km": 1000,
+               "links": [
+                  {
+                     "name": "Instructions",
+                     "uri": "http://dr650.zenseeker.net/ValveAdjustment.htm"
+                  }
+               ],
+               "months": 2,
+               "name": "Valve clearance",
+               "notes": "Valve clearance (when cold): IN.: 0.08-0.13 mm (0.003-0.005 in), EX.: 0.17-0.22 mm (0.007-0.009 in)."
+            },
+            {
+               "description": "Clean and oil the air filter.",
+               "intervalKm": 3000,
+               "links": [
+                  {
+                     "name": "More information",
+                     "uri": "http://dr650.zenseeker.net/AirFilter.htm"
+                  }
+               ],
+               "name": "Air cleaner element",
+               "notes": "Clean with soapy water. Oil using engine oil. Replace air filter if necessary.\nClean air filter drain cap."
+            },
+            {
+               "description": "Inspect the spark plugs.",
+               "intervalKm": 6000,
+               "intervalMonths": 12,
+               "links": [
+                  {
+                     "name": "More information",
+                     "uri": "http://dr650.zenseeker.net/Ignition.htm"
+                  }
+               ],
+               "name": "Spark plugs",
+               "notes": "Inspect the spark plugs and replace if necessary. Spark plug gap: 0.7 - 0.8 mm (0.028 - 0.031 in)\nRecommended replacement 24 months/12000km.\nStandard spark plugs NGK CR10E / Denso U31ESR-N.\nIf the plugs are wet or very dark, use NGK CR9E / Denso U27ESR-N"
+            },
+            {
+               "description": "Adjust the idle speed.",
+               "intervalKm": 6000,
+               "intervalMonths": 12,
+               "km": 1000,
+               "months": 2,
+               "name": "Idle speed",
+               "notes": "Warm engine and adjust to 1400-1600 r/min."
+            },
+            {
+               "description": "Inspect the fuel hose.",
+               "intervalKm": 6000,
+               "intervalMonths": 12,
+               "km": 1000,
+               "months": 2,
+               "name": "Fuel hose",
+               "notes": "Replace every 4 years."
+            },
+            {
+               "description": "Inspect the clutch cable.",
+               "intervalKm": 6000,
+               "intervalMonths": 12,
+               "km": 1000,
+               "months": 2,
+               "name": "Clutch adjustment",
+               "notes": "The play of the clutch lever should be 10 - 15 mm (0.4 - 0.6 in) measured at the clutch lever end."
+            },
+            {
+               "description": "Replace the engine oil and filter.",
+               "intervalKm": 6000,
+               "intervalMonths": 12,
+               "km": 1000,
+               "links": [
+                  {
+                     "name": "How-to video",
+                     "uri": "https://www.youtube.com/watch?v=smf-CJuUZ5s"
+                  },
+                  {
+                     "name": "More information",
+                     "uri": "http://dr650.zenseeker.net/Lubrication.htm"
+                  },
+                  {
+                     "name": "Oil change kit",
+                     "uri": "https://procycle.us/product/53-oil-change-complete-kit"
+                  }
+               ],
+               "months": 2,
+               "name": "Engine oil",
+               "notes": "Use SAE 10W-40 oil.\nAPI: SG, SH, SJ, or SL. JASO: MA.\nDo not use \"Energy Conserving\" oil.\nThe oil filter must be changed with every other oil change (12000 km / 7500 miles or 24 months)"
+            },
+            {
+               "description": "Clean the fuel valve strainer.",
+               "intervalKm": 12000,
+               "intervalMonths": 24,
+               "name": "Fuel valve strainer"
+            },
+            {
+               "description": "Clean and lubricate the chain.",
+               "intervalKm": 1000,
+               "intervalMonths": 12,
+               "km": 1000,
+               "links": [
+                  {
+                     "name": "More information",
+                     "uri": "http://dr650.zenseeker.net/Chain.htm"
+                  }
+               ],
+               "months": 2,
+               "name": "Drive chain",
+               "notes": "Clean and lubricate the drive chain every 1000 km / 600 miles.\nInspect and adjust the chain every 6000 km / 4000 miles, or 12 months.\n\nThe slack of the drive chain should be measured at the middle point between the chain buffer and the rear sprocket. The slack should be 30 - 45 mm (1.2 - 1.8 in.).\nRear axle nut tightening torque: 110 N⋅m (79.5 lbf-ft)."
+            },
+            {
+               "description": "Inspect the brakes.",
+               "intervalKm": 6000,
+               "intervalMonths": 12,
+               "km": 1000,
+               "months": 2,
+               "name": "Brakes",
+               "notes": "Inspect the fluid level (front and back).\nInspect the brake system and hoses for signs of fluid leakage.\nThe brake lever and pedal should have proper stroke and be firm at all times.\nCheck the wear of the disc brake pads."
+            },
+            {
+               "description": "Inspect the brakes.",
+               "intervalKm": 6000,
+               "intervalMonths": 12,
+               "km": 1000,
+               "months": 2,
+               "name": "Brakes",
+               "notes": "Inspect the fluid level (front and back).\nInspect the brake system and hoses for signs of fluid leakage.\nThe brake lever and pedal should have proper stroke and be firm at all times.\nCheck the wear of the disc brake pads."
+            },
+            {
+               "description": "Replace the brake hoses.",
+               "intervalMonths": 48,
+               "name": "Replace brake hoses"
+            },
+            {
+               "description": "Replace the brake fluid.",
+               "intervalMonths": 24,
+               "name": "Replace brake fluid",
+               "notes": "Clean the filler cap before removing. Use only DOT4 brake fluid from a sealed container."
+            },
+            {
+               "description": "Inspect and clean the steering.",
+               "intervalKm": 12000,
+               "intervalMonths": 24,
+               "km": 1000,
+               "months": 2,
+               "name": "Steering",
+               "notes": "Inspect and clean, adjust, replace or lubricate as necessary."
+            },
+            {
+               "description": "Inspect and clean the front forks.",
+               "intervalKm": 12000,
+               "intervalMonths": 24,
+               "name": "Front fork",
+               "notes": "Inspect and clean, adjust, replace or lubricate as necessary."
+            },
+            {
+               "description": "Inspect and clean the rear suspension.",
+               "intervalKm": 12000,
+               "intervalMonths": 24,
+               "name": "Rear suspension",
+               "notes": "Inspect and clean, adjust, replace or lubricate as necessary."
+            },
+            {
+               "description": "Inspect the tires and adjust pressure.",
+               "intervalKm": 6000,
+               "intervalMonths": 12,
+               "name": "Tires",
+               "notes": "Inspect and clean, adjust, replace or lubricate as necessary."
+            },
+            {
+               "description": "Clean the spark arrestor (if equipped).",
+               "intervalKm": 6000,
+               "name": "Spark arrestor"
+            },
+            {
+               "description": "Tighten the exhaust and muffler bolts.",
+               "intervalKm": 6000,
+               "intervalMonths": 12,
+               "km": 1000,
+               "months": 2,
+               "name": "Exhaust pipe and muffler bolts"
+            },
+            {
+               "description": "Tighten the chassis nuts and bolts.",
+               "intervalKm": 6000,
+               "intervalMonths": 12,
+               "km": 1000,
+               "months": 2,
+               "name": "Chassis nuts and bolts"
+            },
+            {
+               "description": "Lubricate the lubrication points.",
+               "intervalKm": 1000,
+               "name": "Lubrication"
+            }
+         ]
+      }
+   ]
+}
