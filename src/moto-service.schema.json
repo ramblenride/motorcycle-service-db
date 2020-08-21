@@ -85,6 +85,11 @@
                "items": {
                   "$ref": "#/definitions/link"
                }
+            },
+            "level": {
+               "type": "string",
+               "enum": ["easy", "intermediate", "pro"],
+               "description": "Technical proficiency level required for this task."
             }
          }
       },
