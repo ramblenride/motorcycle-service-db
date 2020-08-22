@@ -13,6 +13,8 @@ A JSON file that contains all the entries can be generated using Node.js:
 
 The generated file is compliant with the specification in [moto-service.schema.json](moto-service.schema.json).
 
+More output formats will be supported in the future.
+
 ## License
 
 ![Licence Logo](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)

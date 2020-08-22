@@ -64,26 +64,32 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-jsonlint');
 
   grunt.registerMultiTask('merge-moto-json', 'Merge mototorcycle service JSON files', function () {
-    var options = this.options();
+    let options = this.options();
+    let names = new Set();
     grunt.verbose.writeflags(options, "Options");
 
-    /*  iterate over all src-dest file pairs  */
+    /* iterate over all src-dest file pairs  */
     this.files.forEach(function (f) {
       try {
-        /*  start with an empty object  */
-        var json = {
+        let json = {
           motorcycles: []
         };
         f.src.forEach(function (src) {
-          /*  merge JSON file into object  */
           if (!grunt.file.exists(src))
             throw "JSON source file \"" + src + "\" not found.";
           else {
-            var fragment;
+            let fragment;
             grunt.log.debug("reading JSON source file \"" + src + "\"");
-            try { fragment = grunt.file.readJSON(src); }
+            try { 
+              fragment = grunt.file.readJSON(src); 
+              const name = fragment.motorcycles[0].name;
+              if (names.has(name)) {
+                grunt.fail.warn(`Template name already used: ${name}`);
+              }
+              names.add(name);
+              json.motorcycles.push(...fragment.motorcycles);
+            }
             catch (e) { grunt.fail.warn(e); }
-            json.motorcycles.push(...fragment.motorcycles);
           }
         });
 
