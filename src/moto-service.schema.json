@@ -100,7 +100,7 @@
       "link": {
          "required": [
             "name",
-            "uri"
+            "url"
          ],
          "additionalProperties": false,
          "properties": {
@@ -109,7 +109,7 @@
                "maxLength": 32,
                "description": "The name of the link."
             },
-            "uri": {
+            "url": {
                "type": "string",
                "format": "uri",
                "maxLength": 64,

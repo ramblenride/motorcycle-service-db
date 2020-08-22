@@ -11,7 +11,7 @@
                "links": [
                   {
                      "name": "How-to Video",
-                     "uri": "https://www.youtube.com/watch?v=ofSoaJxXupQ"
+                     "url": "https://www.youtube.com/watch?v=ofSoaJxXupQ"
                   }
                ],
                "name": "Air cleaner element",
@@ -62,7 +62,7 @@
                "links": [
                   {
                      "name": "How-to video",
-                     "uri": "https://www.youtube.com/watch?v=aEPsJW8lQmQ&feature=emb_logo"
+                     "url": "https://www.youtube.com/watch?v=aEPsJW8lQmQ&feature=emb_logo"
                   }
                ],
                "months": 1,

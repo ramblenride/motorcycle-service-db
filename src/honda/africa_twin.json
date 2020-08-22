@@ -23,7 +23,7 @@
                "links": [
                   {
                      "name": "How-to video",
-                     "uri": "https://www.youtube.com/watch?v=GV_fAv9J8V0"
+                     "url": "https://www.youtube.com/watch?v=GV_fAv9J8V0"
                   }
                ],
                "name": "Air cleaner",
@@ -55,7 +55,7 @@
                "links": [
                   {
                      "name": "How-to video",
-                     "uri": "https://www.youtube.com/watch?v=zHW_h4raLaA"
+                     "url": "https://www.youtube.com/watch?v=zHW_h4raLaA"
                   }
                ],
                "name": "Engine oil",

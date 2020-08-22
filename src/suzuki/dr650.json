@@ -12,7 +12,7 @@
                "links": [
                   {
                      "name": "Instructions",
-                     "uri": "http://dr650.zenseeker.net/ValveAdjustment.htm"
+                     "url": "http://dr650.zenseeker.net/ValveAdjustment.htm"
                   }
                ],
                "months": 2,
@@ -25,7 +25,7 @@
                "links": [
                   {
                      "name": "More information",
-                     "uri": "http://dr650.zenseeker.net/AirFilter.htm"
+                     "url": "http://dr650.zenseeker.net/AirFilter.htm"
                   }
                ],
                "name": "Air cleaner element",
@@ -38,7 +38,7 @@
                "links": [
                   {
                      "name": "More information",
-                     "uri": "http://dr650.zenseeker.net/Ignition.htm"
+                     "url": "http://dr650.zenseeker.net/Ignition.htm"
                   }
                ],
                "name": "Spark plugs",
@@ -79,15 +79,15 @@
                "links": [
                   {
                      "name": "How-to video",
-                     "uri": "https://www.youtube.com/watch?v=smf-CJuUZ5s"
+                     "url": "https://www.youtube.com/watch?v=smf-CJuUZ5s"
                   },
                   {
                      "name": "More information",
-                     "uri": "http://dr650.zenseeker.net/Lubrication.htm"
+                     "url": "http://dr650.zenseeker.net/Lubrication.htm"
                   },
                   {
                      "name": "Oil change kit",
-                     "uri": "https://procycle.us/product/53-oil-change-complete-kit"
+                     "url": "https://procycle.us/product/53-oil-change-complete-kit"
                   }
                ],
                "months": 2,
@@ -108,7 +108,7 @@
                "links": [
                   {
                      "name": "More information",
-                     "uri": "http://dr650.zenseeker.net/Chain.htm"
+                     "url": "http://dr650.zenseeker.net/Chain.htm"
                   }
                ],
                "months": 2,
