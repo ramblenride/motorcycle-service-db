@@ -1,0 +1,121 @@
+{
+   "$id": "https://sebas642.github.io/moto_service_db/moto-service.schema.json",
+   "$schema": "http://json-schema.org/draft-07/schema#",
+   "title": "Motorcycle Service List",
+   "description": "A collection of motorcycle service intervals.",
+   "type": "object",
+   "required": [
+      "motorcycles"
+   ],
+   "properties": {
+      "motorcycles": {
+         "type": "array",
+         "items": {
+            "$ref": "#/definitions/motorcycle"
+         }
+      }
+   },
+   "definitions": {
+      "motorcycle": {
+         "required": [
+            "name",
+            "description",
+            "tasks"
+         ],
+         "additionalProperties": false,
+         "properties": {
+            "name": {
+               "type": "string",
+               "maxLength": 40,
+               "description": "The name of the motorcycle entry."
+            },
+            "description": {
+               "type": "string",
+               "maxLength": 120,
+               "description": "A short description of the motorcycle entry."
+            },
+            "tasks": {
+               "type": "array",
+               "items": {
+                  "$ref": "#/definitions/task"
+               }
+            }
+         }
+      },
+      "task": {
+         "required": [
+            "name",
+            "description"
+         ],
+         "additionalProperties": false,
+         "properties": {
+            "name": {
+               "type": "string",
+               "maxLength": 30,
+               "description": "The name of the task."
+            },
+            "description": {
+               "type": "string",
+               "maxLength": 100,
+               "description": "A short description of the task."
+            },
+            "km": {
+               "type": "integer",
+               "minimum": 0,
+               "description": "The odometer reading in km at which the task must be performed."
+            },
+            "months": {
+               "type": "integer",
+               "minimum": 0,
+               "description": "The age in months at which the task must be performed."
+            },
+            "intervalKm": {
+               "type": "integer",
+               "minimum": 0,
+               "description": "The odometer reading interval in km at which the recurring task must be performed."
+            },
+            "intervalMonths": {
+               "type": "integer",
+               "minimum": 0,
+               "description": "The age interval in months at which the recurring task must be performed."
+            },
+            "notes": {
+               "type": "string",
+               "maxLength": 2000,
+               "description": "Additional information describing the task."
+            },
+            "links": {
+               "type": "array",
+               "items": {
+                  "$ref": "#/definitions/link"
+               }
+            },
+            "level": {
+               "type": "string",
+               "enum": ["easy", "intermediate", "pro"],
+               "description": "Technical proficiency level required for this task."
+            }
+         }
+      },
+      "link": {
+         "required": [
+            "name",
+            "url"
+         ],
+         "additionalProperties": false,
+         "properties": {
+            "name": {
+               "type": "string",
+               "maxLength": 32,
+               "description": "The name of the link."
+            },
+            "url": {
+               "type": "string",
+               "format": "uri",
+               "maxLength": 64,
+               "description": "The URL of the link."
+            }
+         }
+      }
+   }
+}

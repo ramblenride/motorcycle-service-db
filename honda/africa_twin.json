@@ -1,0 +1,199 @@
+{
+   "motorcycles": [
+      {
+         "description": "All variants of the Honda Africa Twin (CRF1000) from 2016 to 2019",
+         "name": "Honda Africa Twin 2016 - 2019",
+         "tasks": [
+            {
+               "description": "Inspect the fuel line.",
+               "intervalKm": 12800,
+               "level": "intermediate",
+               "name": "Fuel line"
+            },
+            {
+               "description": "Inspect the throttle operation.",
+               "intervalKm": 12800,
+               "level": "intermediate",
+               "name": "Throttle operation",
+               "notes": "With the engine off, check that the throttle rotates smoothly from fully closed to fully open.\nIf the throttle does not move smoothly, close automatically, have the motorcycle inspected by your dealer."
+            },
+            {
+               "description": "Replace the air cleaner.",
+               "intervalKm": 19200,
+               "links": [
+                  {
+                     "name": "How-to video",
+                     "url": "https://www.youtube.com/watch?v=GV_fAv9J8V0"
+                  }
+               ],
+               "name": "Air cleaner",
+               "notes": "The air filter cannot be cleaned without degrading its performance. If the filter becomes dirty, replace it with a new one.\nService more frequently when riding in unusually wet or dusty areas."
+            },
+            {
+               "description": "Clean the crankcase breather.",
+               "intervalKm": 6400,
+               "name": "Crankcase breather",
+               "notes": "Service more frequently when riding in rain or at full throttle."
+            },
+            {
+               "description": "Inspect and/or replace spark plugs.",
+               "intervalKm": 25600,
+               "name": "Spark plugs",
+               "notes": "Inspect (clean, adjust, lubricate, or replace if necessary) every 25600 km / 16000 miles.\nReplace every 51200 km / 32000 miles.\nStandard spark plug: NGK SILMAR8A9S\nSpark plug gap: 0.03 - 0.04 in (0.8 - 0.9 mm)"
+            },
+            {
+               "description": "Inspect the valve clearance.",
+               "intervalKm": 25600,
+               "level": "intermediate",
+               "name": "Valve clearance"
+            },
+            {
+               "description": "Replace the engine oil and filter.",
+               "intervalKm": 12800,
+               "intervalMonths": 12,
+               "km": 1000,
+               "links": [
+                  {
+                     "name": "How-to video",
+                     "url": "https://www.youtube.com/watch?v=zHW_h4raLaA"
+                  }
+               ],
+               "name": "Engine oil",
+               "notes": "Replace the filter at the inital oil change and then at every other oil change.\nUse SAE 10W-30 with classification SG or higher. JASO T 903 standard: MA. Do not use resource conserving or energy conserving oil."
+            },
+            {
+               "description": "Inspect the radiator coolant.",
+               "intervalKm": 12800,
+               "name": "Radiator coolant"
+            },
+            {
+               "description": "Replace the radiator coolant.",
+               "intervalMonths": 36,
+               "level": "intermediate",
+               "name": "Radiator coolant"
+            },
+            {
+               "description": "Replace the clutch oil filter (if equipped).",
+               "intervalKm": 25600,
+               "km": 1000,
+               "name": "Clutch oil filter"
+            },
+            {
+               "description": "Inspect the engine idle speed.",
+               "intervalKm": 12800,
+               "level": "intermediate",
+               "name": "Engine idle speed"
+            },
+            {
+               "description": "Inspect cooling system.",
+               "intervalKm": 12800,
+               "level": "intermediate",
+               "name": "Cooling system"
+            },
+            {
+               "description": "Inspect the secondary air supply system.",
+               "intervalKm": 25600,
+               "level": "intermediate",
+               "name": "Secondary air supply system"
+            },
+            {
+               "description": "Inspect the evaporative emission control system.",
+               "intervalKm": 25600,
+               "level": "intermediate",
+               "name": "Evaporative emission system"
+            },
+            {
+               "description": "Inspect and lubricate the drive chain.",
+               "intervalKm": 1000,
+               "name": "Drive chain",
+               "notes": "Service more frequently when riding off-road."
+            },
+            {
+               "description": "Inspect the drive chain slider.",
+               "intervalKm": 6400,
+               "name": "Drive chain slider"
+            },
+            {
+               "description": "Inspect the brake fluid.",
+               "intervalKm": 12800,
+               "name": "Brake fluid"
+            },
+            {
+               "description": "Replace the brake fluid.",
+               "intervalMonths": 24,
+               "level": "intermediate",
+               "name": "Brake fluid"
+            },
+            {
+               "description": "Inspect the brake pads wear.",
+               "intervalKm": 6400,
+               "name": "Brake pads wear"
+            },
+            {
+               "description": "Inspect the brake system.",
+               "intervalKm": 12800,
+               "name": "Brake system"
+            },
+            {
+               "description": "Inspect the brake light switch.",
+               "intervalKm": 12800,
+               "name": "Brake light switch"
+            },
+            {
+               "description": "Inspect the brake lock operation.",
+               "intervalKm": 6400,
+               "level": "intermediate",
+               "name": "Brake lock operation"
+            },
+            {
+               "description": "Inspect the headlight aim.",
+               "intervalKm": 12800,
+               "name": "Headlight aim"
+            },
+            {
+               "description": "Inspect the clutch lever freeplay (if equipped).",
+               "intervalKm": 6400,
+               "name": "Clutch system",
+               "notes": "Inpect and adjust the clutch lever freeplay at 3/8 - 13/16 in(10 - 20 mm). Check the clutch cable for any sign of wear."
+            },
+            {
+               "description": "Inspect the side stand.",
+               "intervalKm": 12800,
+               "name": "Side stand"
+            },
+            {
+               "description": "Inspect the suspension.",
+               "intervalKm": 12800,
+               "level": "intermediate",
+               "name": "Suspenseion"
+            },
+            {
+               "description": "Clean the spark arrestor (if equipped).",
+               "intervalKm": 6400,
+               "level": "intermediate",
+               "name": "Spark arrestor"
+            },
+            {
+               "description": "Inspect and tighten the nuts, bolts, and fasteners.",
+               "intervalKm": 12800,
+               "level": "intermediate",
+               "name": "Nuts, bolts, fasteners",
+               "notes": "Service more frequently when riding off-road."
+            },
+            {
+               "description": "Inspect the wheels and tires.",
+               "intervalKm": 6400,
+               "level": "pro",
+               "name": "Wheels / Tires",
+               "notes": "Service more frequently when riding off-road."
+            },
+            {
+               "description": "Inspect the steering head bearings.",
+               "intervalKm": 12800,
+               "level": "pro",
+               "name": "Steering head bearings"
+            }
+         ]
+      }
+   ]
+}

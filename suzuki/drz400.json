@@ -1,0 +1,193 @@
+{
+   "motorcycles": [
+      {
+         "description": "The S/SM variants of the Suzuki DRZ400 from 2001 to now.",
+         "name": "Suzuki DRZ400 S/SM 2001 -",
+         "tasks": [
+            {
+               "description": "Clean and oil the air filter.",
+               "intervalKm": 6000,
+               "intervalMonths": 6,
+               "links": [
+                  {
+                     "name": "How-to Video",
+                     "url": "https://www.youtube.com/watch?v=ofSoaJxXupQ"
+                  }
+               ],
+               "name": "Air cleaner element",
+               "notes": "Inspect the air cleaner element for tears. Clean with nonflammable cleaning solvent. Oil using motor oil. Replace air filter every 18000 km / 11000 miles."
+            },
+            {
+               "description": "Tighten the exhaust pipe nut and bolt and muffler nut and bolts.",
+               "intervalKm": 12000,
+               "intervalMonths": 12,
+               "km": 1000,
+               "months": 1,
+               "name": "Exhaust pipe and muffler bolts",
+               "notes": ""
+            },
+            {
+               "description": "Inspect the tappet clearance.",
+               "intervalKm": 24000,
+               "intervalMonths": 24,
+               "name": "Tappet clearance",
+               "notes": "Tappet clearance when cold:\nIN: 0.10 - 0.20 mm (0.0039 - 0.0079 in)\nEX: 0.20 - 0.30 mm (0.0079 - 0.0118 in)"
+            },
+            {
+               "description": "Inspect the spark plugs.",
+               "intervalKm": 6000,
+               "intervalMonths": 6,
+               "name": "Spark plugs",
+               "notes": "Inspect the spark plugs and replace if necessary.\nSpark plug gap: 0.7 - 0.8 mm (0.028 - 0.031 in)\nRecommended replacement 12 months / 12000km / 7500 miles.\nStandard spark plugs: NGK CR8E / Denso U24ESR-N.\nCold type: NGK CR9E / Denso U27ESR-N.\nHot type: NGK CR7E / Denso U22ESR-N"
+            },
+            {
+               "description": "Clean the spark arrestor (if equipped).",
+               "intervalKm": 6000,
+               "intervalMonths": 6,
+               "name": "Spark arrestor",
+               "notes": ""
+            },
+            {
+               "description": "Inspect the fuel hose.",
+               "intervalKm": 6000,
+               "intervalMonths": 6,
+               "name": "Fuel hose",
+               "notes": "Replace every 4 years."
+            },
+            {
+               "description": "Replace the engine oil.",
+               "intervalKm": 6000,
+               "intervalMonths": 6,
+               "km": 1000,
+               "links": [
+                  {
+                     "name": "How-to video",
+                     "url": "https://www.youtube.com/watch?v=aEPsJW8lQmQ&feature=emb_logo"
+                  }
+               ],
+               "months": 1,
+               "name": "Engine oil",
+               "notes": "Use SAE 10W-40 oil.\nAPI: SG, SH, SJ, or SL. JASO: MA.\nDo not use \"Energy Conserving\" oil.\nThe oil filter must be changed initially after 1 month or 1000 km / 600 miles. Then every 18 months or 18000 km / 11000 miles."
+            },
+            {
+               "description": "Inspect the engine oil hoses.",
+               "intervalKm": 6000,
+               "intervalMonths": 6,
+               "km": 1000,
+               "months": 1,
+               "name": "Engine oil hoses"
+            },
+            {
+               "description": "Inspect the carburetor.",
+               "intervalKm": 6000,
+               "intervalMonths": 6,
+               "km": 1000,
+               "months": 1,
+               "name": "Carburetor"
+            },
+            {
+               "description": "Replace the engine coolant.",
+               "intervalMonths": 48,
+               "name": "Engine coolant"
+            },
+            {
+               "description": "Inspect the radiator hose.",
+               "intervalKm": 6000,
+               "intervalMonths": 6,
+               "name": "Radiator hose"
+            },
+            {
+               "description": "Inspect the clutch.",
+               "intervalKm": 6000,
+               "intervalMonths": 6,
+               "name": "Clutch"
+            },
+            {
+               "description": "Clean and lubricate the chain.",
+               "intervalKm": 1000,
+               "intervalMonths": 6,
+               "km": 1000,
+               "months": 1,
+               "name": "Drive chain",
+               "notes": "Clean and lubricate the drive chain every 1000 km / 600 miles.\nInspect and adjust the chain every 6000 km / 4000 miles, or 6 months.\n\nAdjust the slack to 40 - 50 mm (1.6 - 2.0 in.).\n20-pitch max length: 319.4 mm (12.57 in)."
+            },
+            {
+               "description": "Inspect the brakes.",
+               "intervalKm": 6000,
+               "intervalMonths": 6,
+               "km": 1000,
+               "months": 1,
+               "name": "Brakes"
+            },
+            {
+               "description": "Inspect the brake fluid.",
+               "intervalKm": 6000,
+               "intervalMonths": 6,
+               "name": "Brake fluid",
+               "notes": "Replace every 2 years."
+            },
+            {
+               "description": "Inspect the brake hoses.",
+               "intervalKm": 6000,
+               "intervalMonths": 6,
+               "name": "Brake hoses",
+               "notes": "Replace every 4 years."
+            },
+            {
+               "description": "Inspect the tires.",
+               "intervalKm": 6000,
+               "intervalMonths": 6,
+               "name": "Tires"
+            },
+            {
+               "description": "Inspect the spoke nipples.",
+               "intervalKm": 6000,
+               "intervalMonths": 6,
+               "km": 1000,
+               "months": 1,
+               "name": "Spoke nipples"
+            },
+            {
+               "description": "Inspect the steering.",
+               "intervalKm": 12000,
+               "intervalMonths": 12,
+               "km": 1000,
+               "months": 1,
+               "name": "Steering"
+            },
+            {
+               "description": "Inspect the front fork.",
+               "intervalKm": 12000,
+               "intervalMonths": 12,
+               "name": "Front fork"
+            },
+            {
+               "description": "Inspect the rear suspension.",
+               "intervalKm": 12000,
+               "intervalMonths": 12,
+               "name": "Rear suspension"
+            },
+            {
+               "description": "Inspect the Evaporative emission control system (if equipped).",
+               "intervalKm": 12000,
+               "name": "Evaporative emission control",
+               "notes": "Replace vapor hoses every 4 years."
+            },
+            {
+               "description": "Inspect the the PAIR (air supply) system (if equipped).",
+               "intervalKm": 12000,
+               "intervalMonths": 12,
+               "name": "PAIR (air supply) system"
+            },
+            {
+               "description": "Tighten the chassis nuts and bolts.",
+               "intervalKm": 6000,
+               "intervalMonths": 6,
+               "km": 1000,
+               "months": 1,
+               "name": "Chassis nuts and bolts"
+            }
+         ]
+      }
+   ]
+}
