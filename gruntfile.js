@@ -24,8 +24,9 @@ module.exports = function (grunt) {
   const JSON_SCHEMA = 'src/moto-service.schema.json';
   const JSON_SCHEMA_VERSION = 'json-schema-draft-07';
   const JSON_SOURCE = ['src/**/*.json', '!src/**/*.schema.json'];
-  const JSON_OUTPUT_DIR = 'output';
-  const JSON_OUTPUT = `${JSON_OUTPUT_DIR}/motorcycle-service-intervals.json`;
+  const JSON_OUTPUT_DIR = 'dist';
+  const JSON_DB_OUTPUT = `${JSON_OUTPUT_DIR}/motorcycle-service-intervals.json`;
+  const JSON_INDEX_OUTPUT = `${JSON_OUTPUT_DIR}/motorcycle-service-index.json`;
 
   grunt.initConfig({
     clean: [`${JSON_OUTPUT_DIR}/*`],
@@ -48,14 +49,16 @@ module.exports = function (grunt) {
 
       // Validate and format the output file after the merge.
       post: {
-        src: JSON_OUTPUT,
+        src: JSON_DB_OUTPUT
       }
     },
 
     'merge-moto-json': {
       all: {
         src: JSON_SOURCE,
-        dest: JSON_OUTPUT
+        dest: JSON_DB_OUTPUT,
+        index: JSON_INDEX_OUTPUT,
+        templates: JSON_OUTPUT_DIR,
       },
     },
   });
@@ -66,12 +69,13 @@ module.exports = function (grunt) {
   grunt.registerMultiTask('merge-moto-json', 'Merge mototorcycle service JSON files', function () {
     let options = this.options();
     let names = new Set();
+    let index = {};
     grunt.verbose.writeflags(options, "Options");
 
     /* iterate over all src-dest file pairs  */
     this.files.forEach(function (f) {
       try {
-        let json = {
+        let jsonDb = {
           motorcycles: []
         };
         f.src.forEach(function (src) {
@@ -87,15 +91,30 @@ module.exports = function (grunt) {
                 grunt.fail.warn(`Template name already used: ${name}`);
               }
               names.add(name);
-              json.motorcycles.push(...fragment.motorcycles);
+              jsonDb.motorcycles.push(...fragment.motorcycles);
+
+              const location = src.substr(4);
+              index[name] = {
+                name: name,
+                description: fragment.motorcycles[0].description,
+                location: location,
+              };
+
+              grunt.file.copy(src, `${f.templates}/${location}`);
+              
             }
             catch (e) { grunt.fail.warn(e); }
           }
         });
 
-        /*  write object as new JSON  */
-        grunt.log.debug("writing JSON destination file \"" + f.dest + "\"");
-        grunt.file.write(f.dest, JSON.stringify(json, options.replacer, options.space));
+        /* write DB as new JSON */
+        grunt.log.debug("writing JSON DB file \"" + f.dest + "\"");
+        grunt.file.write(f.dest, JSON.stringify(jsonDb, options.replacer, options.space));
+        grunt.log.writeln("File \"" + f.dest + "\" created.");
+
+        /* write index as new JSON */
+        grunt.log.debug("writing JSON index file \"" + f.index + "\"");
+        grunt.file.write(f.index, JSON.stringify(index, options.replacer, options.space));
         grunt.log.writeln("File \"" + f.dest + "\" created.");
       }
       catch (e) {
