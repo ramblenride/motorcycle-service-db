@@ -1,7 +1,7 @@
 {
    "motorcycles": [
       {
-         "description": "All variants of the Honda Africa Twin (CRF1000) from 2016 to 2019",
+         "description": "All variants of the Honda Africa Twin (CRF1000) from 2016 to 2019.",
          "name": "Honda Africa Twin 2016 - 2019",
          "tasks": [
             {
@@ -165,7 +165,7 @@
                "description": "Inspect the suspension.",
                "intervalKm": 12800,
                "level": "intermediate",
-               "name": "Suspenseion"
+               "name": "Suspension"
             },
             {
                "description": "Clean the spark arrestor (if equipped).",
@@ -407,7 +407,7 @@
                "intervalMonths": 6,
                "links": [
                   {
-                     "name": "How-to Video",
+                     "name": "How-to video",
                      "url": "https://www.youtube.com/watch?v=ofSoaJxXupQ"
                   }
                ],
