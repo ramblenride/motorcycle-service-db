@@ -95,7 +95,6 @@ module.exports = function (grunt) {
 
               const location = src.substr(4);
               index[name] = {
-                name: name,
                 description: fragment.motorcycles[0].description,
                 location: location,
               };
