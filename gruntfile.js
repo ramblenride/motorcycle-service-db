@@ -115,7 +115,7 @@ module.exports = function (grunt) {
         /* write index as new JSON */
         grunt.log.debug("writing JSON index file \"" + f.index + "\"");
         grunt.file.write(f.index, JSON.stringify(index, options.replacer, options.space));
-        grunt.log.writeln("File \"" + f.dest + "\" created.");
+        grunt.log.writeln("File \"" + f.index + "\" created.");
       }
       catch (e) {
         grunt.fail.warn(e);
