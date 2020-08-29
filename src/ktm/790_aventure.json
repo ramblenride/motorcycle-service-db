@@ -1,0 +1,305 @@
+{
+   "motorcycles": [
+      {
+         "description": "All variants of the KTM 790 Adventure from 2019 to 2020.",
+         "name": "KTM 790 Adventure 2019 - 2020",
+         "tasks": [
+            {
+               "description": "Read out the trouble code memory using the KTM diagnostics tool.",
+               "intervalKm": 15000,
+               "intervalMonths": 12,
+               "km": 1000,
+               "level": "pro",
+               "name": "Trouble code memory"
+            },
+            {
+               "description": "Program the shift shaft sensor.",
+               "intervalKm": 15000,
+               "intervalMonths": 12,
+               "km": 1000,
+               "level": "pro",
+               "name": "Shift shaft sensor"
+            },
+            {
+               "description": "Check that the electrical system is functionning properly.",
+               "intervalKm": 15000,
+               "intervalMonths": 12,
+               "km": 1000,
+               "name": "Electrical system"
+            },
+            {
+               "description": "Change the engine oil and the oil filter, clean the oil screens.",
+               "intervalKm": 15000,
+               "intervalMonths": 12,
+               "km": 1000,
+               "level": "pro",
+               "links": [
+                  {
+                     "name": "How-to video",
+                     "url": "https://www.youtube.com/watch?v=j-9cK3h8qR8"
+                  }
+               ],
+               "name": "Engine oil"
+            },
+            {
+               "description": "Check the front and rear brake linings, and the discs,.",
+               "intervalKm": 15000,
+               "intervalMonths": 12,
+               "km": 1000,
+               "name": "Brake linings and discs",
+               "notes": "Check the front brake linings.\nCheck the rear brake linings.\nCheck brake discs."
+            },
+            {
+               "description": "Check the brake lines for damage and leakage.",
+               "intervalKm": 15000,
+               "intervalMonths": 12,
+               "km": 1000,
+               "level": "pro",
+               "name": "Brake lines"
+            },
+            {
+               "description": "Check the brake fluid level",
+               "intervalKm": 15000,
+               "km": 1000,
+               "name": "Brake fluid"
+            },
+            {
+               "description": "Change brake fluid.",
+               "intervalMonths": 24,
+               "level": "pro",
+               "name": "Brake fluid"
+            },
+            {
+               "description": "Check the free travel of the clutch lever.",
+               "intervalKm": 15000,
+               "intervalMonths": 12,
+               "km": 1000,
+               "name": "Clutch level"
+            },
+            {
+               "description": "Check the free travel of the brake lever.",
+               "intervalKm": 15000,
+               "intervalMonths": 12,
+               "km": 1000,
+               "name": "Brake lever"
+            },
+            {
+               "description": "Check the shock absorber and forks for leaks.",
+               "intervalKm": 15000,
+               "intervalMonths": 12,
+               "km": 1000,
+               "level": "pro",
+               "name": "Shock absorber and forks",
+               "notes": "Perform service as needed and depending on how the vehicle is used."
+            },
+            {
+               "description": "Check the dust boots of the fork legs.",
+               "intervalKm": 15000,
+               "level": "pro",
+               "name": "Dust boots"
+            },
+            {
+               "description": "Check the steering head bearing play.",
+               "intervalKm": 15000,
+               "intervalMonths": 12,
+               "km": 1000,
+               "name": "Steering head bearing play"
+            },
+            {
+               "description": "Check the tire condition and pressure.",
+               "intervalKm": 15000,
+               "intervalMonths": 12,
+               "km": 1000,
+               "name": "Tires"
+            },
+            {
+               "description": "Retighten the spokes.",
+               "km": 1000,
+               "level": "pro",
+               "name": "Spokes"
+            },
+            {
+               "description": "Check the spokes tension.",
+               "intervalKm": 15000,
+               "intervalMonths": 12,
+               "name": "Spokes"
+            },
+            {
+               "description": "Check the rim run-out.",
+               "intervalKm": 15000,
+               "intervalMonths": 12,
+               "km": 1000,
+               "level": "pro",
+               "name": "Rims"
+            },
+            {
+               "description": "Check the chain, rear sprocket, engine sprocket, and chain guide.",
+               "intervalKm": 15000,
+               "intervalMonths": 12,
+               "name": "Chain and sprockets"
+            },
+            {
+               "description": "Check the chain tension.",
+               "intervalKm": 15000,
+               "intervalMonths": 12,
+               "km": 1000,
+               "name": "Chain tension"
+            },
+            {
+               "description": "Change the spark plugs.",
+               "intervalKm": 30000,
+               "level": "pro",
+               "name": "Spark plugs"
+            },
+            {
+               "description": "Check the valve clearance",
+               "intervalKm": 15000,
+               "level": "pro",
+               "name": "Valve clearance"
+            },
+            {
+               "description": "Check the coolant fill level and antifreeze.",
+               "intervalKm": 15000,
+               "intervalMonths": 12,
+               "km": 1000,
+               "level": "pro",
+               "name": "Coolant and antifreeze"
+            },
+            {
+               "description": "Check the cables for damage and for routing without kinks.",
+               "intervalKm": 15000,
+               "intervalMonths": 12,
+               "level": "pro",
+               "name": "Cables"
+            },
+            {
+               "description": "Change the air filter and clean the air filter box.",
+               "intervalKm": 15000,
+               "level": "pro",
+               "name": "Air filter"
+            },
+            {
+               "description": "Check the fuel pressure.",
+               "intervalKm": 15000,
+               "intervalMonths": 12,
+               "level": "pro",
+               "name": "Fuel pressure"
+            },
+            {
+               "description": "Check the headlight setting.",
+               "intervalKm": 15000,
+               "km": 1000,
+               "name": "Headlight setting"
+            },
+            {
+               "description": "Check that the radiator fan is functionning properly.",
+               "intervalKm": 15000,
+               "intervalMonths": 12,
+               "km": 1000,
+               "level": "pro",
+               "name": "Radiator fan"
+            },
+            {
+               "description": "Check the vehicle is roadworthy and take a test ride.",
+               "intervalKm": 15000,
+               "intervalMonths": 12,
+               "km": 1000,
+               "level": "pro",
+               "name": "Final check"
+            },
+            {
+               "description": "Read out the error memory after the test ride using the KTM dignostics tool.",
+               "intervalKm": 15000,
+               "intervalMonths": 12,
+               "km": 1000,
+               "level": "pro",
+               "name": "Error memory"
+            },
+            {
+               "description": "Set the service interval display.",
+               "intervalKm": 15000,
+               "intervalMonths": 12,
+               "km": 1000,
+               "level": "pro",
+               "name": "Service interval display."
+            },
+            {
+               "description": "Make a service entry in KTM Dealers.net",
+               "intervalKm": 15000,
+               "intervalMonths": 12,
+               "km": 1000,
+               "level": "pro",
+               "name": "Service entry"
+            },
+            {
+               "description": "Check the frame.",
+               "intervalKm": 30000,
+               "level": "pro",
+               "name": "Frame"
+            },
+            {
+               "description": "Check the link fork.",
+               "intervalKm": 30000,
+               "level": "pro",
+               "name": "Link fork"
+            },
+            {
+               "description": "Check/clean the oil nozzle for clutch lubrication.",
+               "intervalKm": 15000,
+               "km": 1000,
+               "level": "pro",
+               "name": "Oil nozzle"
+            },
+            {
+               "description": "Check the fork bearing for play.",
+               "intervalKm": 15000,
+               "name": "Fork bearing"
+            },
+            {
+               "description": "Check the wheel bearing for play.",
+               "intervalKm": 15000,
+               "name": "Wheel bearing"
+            },
+            {
+               "description": "Change the coolant",
+               "intervalMonths": 48,
+               "level": "pro",
+               "name": "Coolant"
+            },
+            {
+               "description": "Empty the drainage hoses.",
+               "intervalKm": 15000,
+               "intervalMonths": 12,
+               "km": 1000,
+               "level": "pro",
+               "name": "Drainage hoses"
+            },
+            {
+               "description": "Check all the hoses and sleeves for cracking, leaks, and incorrect routing.",
+               "intervalKm": 15000,
+               "intervalMonths": 12,
+               "level": "pro",
+               "name": "Hoses",
+               "notes": "e.g. fuel, cooling, bleeder, drainage, etc."
+            },
+            {
+               "description": "Grease all moving parts and check for smooth operation.",
+               "intervalKm": 15000,
+               "intervalMonths": 12,
+               "km": 1000,
+               "level": "pro",
+               "name": "Grease",
+               "notes": "e.g., side stand, hand lever, chain, ..."
+            },
+            {
+               "description": "Check the tightness of the safety-relevant screws and nuts which are easily accessible.",
+               "intervalKm": 15000,
+               "intervalMonths": 12,
+               "km": 1000,
+               "level": "pro",
+               "name": "Screws and nuts"
+            }
+         ]
+      }
+   ]
+}
