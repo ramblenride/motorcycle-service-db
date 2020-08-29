@@ -1,0 +1,27 @@
+name: Build and Deploy CI
+
+on:
+  push:
+    branches: 
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: '12'
+      - run: npm ci
+      - run: npm run build
+      - run: git config user.email "support+actions@github.com"
+      - run: git config user.name "github-actions-bot"
+      - run: git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/ramblenride/motorcycle-service-db.git
+      - run: npm run deploy
+      
