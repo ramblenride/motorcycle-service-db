@@ -234,7 +234,8 @@
                      "url": "https://www.youtube.com/watch?v=j-9cK3h8qR8"
                   }
                ],
-               "name": "Engine oil"
+               "name": "Engine oil",
+               "notes": "Use SAE 10W/50, JASO T903 MA2. Fully synthetic oil.\nRecommended: MOTOREX ® Power Synt 4T"
             },
             {
                "description": "Check the front and rear brake linings, and the discs,.",
@@ -262,7 +263,8 @@
                "description": "Change brake fluid.",
                "intervalMonths": 24,
                "level": "pro",
-               "name": "Brake fluid"
+               "name": "Brake fluid",
+               "notes": "Use DOT 4 or DOT 5.1.\nRecommended: \n- Castrol REACT PERFORMANCE DOT 4\n- MOTOREX ® Brake Fluid DOT 5.1"
             },
             {
                "description": "Check the free travel of the clutch lever.",
@@ -344,7 +346,8 @@
                "description": "Change the spark plugs.",
                "intervalKm": 30000,
                "level": "pro",
-               "name": "Spark plugs"
+               "name": "Spark plugs",
+               "notes": "Spark plugs: NGK LMAR9AI‐10\nElectrode gap: 1.0 mm (0.039 in)"
             },
             {
                "description": "Check the valve clearance",
