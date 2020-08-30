@@ -889,6 +889,293 @@
                "name": "Chassis nuts and bolts"
             }
          ]
+      },
+      {
+         "description": "Periodic Maintenance from the XTZ12AESL Owner's Manual 2020",
+         "name": "Yamaha Super Ténéré ES 700",
+         "tasks": [
+            {
+               "description": "Check fuel hoses for cracks or damage. Replace if necessary.",
+               "intervalKm": 6000,
+               "intervalMonths": 6,
+               "level": "pro",
+               "name": "Fuel Line"
+            },
+            {
+               "description": "Check condition. Adjust gap and clean. ",
+               "intervalKm": 6000,
+               "intervalMonths": 6,
+               "level": "pro",
+               "name": "Spark Plugs"
+            },
+            {
+               "description": "Replacce",
+               "km": 19000,
+               "level": "pro",
+               "months": 18,
+               "name": "Replace spark plugs",
+               "notes": "\n"
+            },
+            {
+               "description": "Check and adjust valve clearance when engine is cold. ",
+               "km": 420000,
+               "level": "pro",
+               "name": "Valve Clearance"
+            },
+            {
+               "description": "Check breather hose for cracks or damage. Replace is necessary. ",
+               "intervalKm": 6000,
+               "intervalMonths": 6,
+               "level": "pro",
+               "name": "Crankcase Breather System"
+            },
+            {
+               "description": "Adjust synchronization. ",
+               "intervalKm": 6000,
+               "intervalMonths": 6,
+               "name": "Fuel injection"
+            },
+            {
+               "description": "Check for leakage. Tighten if necessary. Replace gasket if necessary. ",
+               "intervalKm": 6,
+               "intervalMonths": 6000,
+               "km": 1000,
+               "level": "pro",
+               "months": 1,
+               "name": "Exhaust  System"
+            },
+            {
+               "description": "Perform dynamic inspection using Yamaha diagnostic tool. Check the error codes. ",
+               "intervalKm": 6000,
+               "intervalMonths": 6,
+               "km": 1000,
+               "level": "pro",
+               "months": 1,
+               "name": "Diagnostic System Check"
+            },
+            {
+               "description": "Replace.",
+               "km": 37000,
+               "level": "pro",
+               "name": "Replace air filter element."
+            },
+            {
+               "description": "Check operation, fluid level and for fluid leakage. Correct if necessary. ",
+               "intervalKm": 6000,
+               "intervalMonths": 6,
+               "km": 1000,
+               "level": "pro",
+               "months": 1,
+               "name": "Clutch"
+            },
+            {
+               "description": "Check operation, fluid level and for fluid leakage. Replace brake pads if necessary. ",
+               "intervalKm": 6000,
+               "intervalMonths": 6,
+               "km": 1000,
+               "level": "pro",
+               "months": 1,
+               "name": "Front brake"
+            },
+            {
+               "description": "Check operation, fluid level and for fluid leakage. Replace brake pads if necessary. ",
+               "intervalKm": 6000,
+               "intervalMonths": 6,
+               "km": 1000,
+               "level": "pro",
+               "months": 1,
+               "name": "Rear brake"
+            },
+            {
+               "description": "Check for cracks or damage. Check for correct routing and clamping. ",
+               "intervalKm": 6000,
+               "intervalMonths": 6,
+               "level": "pro",
+               "name": "Brake hoses"
+            },
+            {
+               "description": "Replace. ",
+               "level": "pro",
+               "months": 48,
+               "name": "Replace brake hoses"
+            },
+            {
+               "description": "Change. ",
+               "level": "pro",
+               "months": 24,
+               "name": "Change brake fluid"
+            },
+            {
+               "description": "Check rim runout and spokes for damage. Tighten all spokes.  ",
+               "intervalKm": 6000,
+               "intervalMonths": 6,
+               "km": 1000,
+               "level": "pro",
+               "months": 1,
+               "name": "Wheels"
+            },
+            {
+               "description": "Check tread depth and for damage. Replace if necessary. Check air pressure. Correct if necessary. ",
+               "intervalKm": 6000,
+               "intervalMonths": 6,
+               "level": "pro",
+               "name": "Tires"
+            },
+            {
+               "description": "Check bearings for smooth operation. Replace if necessary. ",
+               "intervalKm": 6000,
+               "intervalMonths": 6,
+               "level": "pro",
+               "name": "Wheel bearings"
+            },
+            {
+               "description": "Check operation and for excessive play. ",
+               "intervalKm": 6000,
+               "intervalMonths": 6,
+               "level": "pro",
+               "name": "Swingarm pivot bearings"
+            },
+            {
+               "description": "Moderately repack with lithium-soap-based grease. ",
+               "km": 25000,
+               "level": "pro",
+               "name": "Swingarm pivot bearings"
+            },
+            {
+               "description": "Check all chassis fitting and fasteners. Correct if necessary. ",
+               "intervalKm": 6000,
+               "intervalMonths": 6,
+               "level": "pro",
+               "name": "Chassis fasteners"
+            },
+            {
+               "description": "Apply silicone grease lightly. ",
+               "intervalKm": 6000,
+               "intervalMonths": 6,
+               "name": "Brake lever pivot shaft "
+            },
+            {
+               "description": "Apply lithium-soap-based grease lightly. ",
+               "intervalKm": 6000,
+               "intervalMonths": 6,
+               "name": "Brake pedal pivot shaft"
+            },
+            {
+               "description": "Apply silicone grease lightly. ",
+               "intervalKm": 6000,
+               "intervalMonths": 6,
+               "name": "Clutch lever pivot shaft"
+            },
+            {
+               "description": "Apply lithium-soap-based grease lightly. ",
+               "intervalKm": 6000,
+               "intervalMonths": 6,
+               "name": "Shift pedal pivot shaft"
+            },
+            {
+               "description": "Check operation. Apply lithium-soap-based grease lightly. ",
+               "intervalKm": 6000,
+               "intervalMonths": 6,
+               "name": "Centerstand / sidestand pivots"
+            },
+            {
+               "description": "Check operation and replace if necessary. ",
+               "intervalKm": 6000,
+               "intervalMonths": 6,
+               "km": 1000,
+               "level": "pro",
+               "months": 1,
+               "name": "Sidestand switch"
+            },
+            {
+               "description": "Check operation and for oil leakage. Replace if necessary. ",
+               "intervalKm": 6000,
+               "intervalMonths": 6,
+               "level": "pro",
+               "name": "Front fork"
+            },
+            {
+               "description": "Check operation. Correct if necessary. ",
+               "intervalKm": 12000,
+               "intervalMonths": 12,
+               "level": "pro",
+               "name": "Rear suspension link pivots"
+            },
+            {
+               "description": "Change (warm engine before draining).",
+               "intervalKm": 6000,
+               "intervalMonths": 6,
+               "km": 1000,
+               "months": 1,
+               "name": "Change engine oil",
+               "notes": "- Recommended brand: Yamalube\n- SAE viscosity grades: 10W-40, 10W-50, 15W-40, 20W-40 or 20W-50\n- Recommended engine oil grade: API service SG type or higher, JASO standard MA\n\nEngine oil quantity:\n- Oil change: 3.10 L (3.28 US qt, 2.73 Imp.qt)\n- With oil filter removal: 3.40 L (3.59 US qt, 2.99 Imp.qt)"
+            },
+            {
+               "description": "Replace engine filter cartridge.",
+               "intervalKm": 12000,
+               "intervalMonths": 12,
+               "km": 1000,
+               "months": 1,
+               "name": "Engine oil filter cartridge "
+            },
+            {
+               "description": "Check coolant level and vehicle for coolant leakage. ",
+               "intervalKm": 6000,
+               "intervalMonths": 6,
+               "level": "pro",
+               "name": "Cooling system",
+               "notes": "- Coolant reservoir (up to the maximum level mark): 0.26 L (0.27 US qt, 0.23 Imp.qt)\n- Radiator (including all routes): 1.83 L (1.93 US qt, 1.61 Imp.qt)"
+            },
+            {
+               "description": "Change. ",
+               "level": "pro",
+               "months": 36,
+               "name": "Change cooling system",
+               "notes": "- Coolant reservoir (up to the maximum level mark): 0.26 L (0.27 US qt, 0.23 Imp.qt)\n- Radiator (including all routes): 1.83 L (1.93 US qt, 1.61 Imp.qt"
+            },
+            {
+               "description": "Check oil level and for oil leakage. ",
+               "intervalKm": 6000,
+               "intervalMonths": 6,
+               "name": "Final gear oil",
+               "notes": "At 24 000, change. \n\n- Type: Yamaha genuine shaft drive gear oil SAE, 80W-90 API GL-5 or SAE 80 API GL-4, Hypoid gear oil\n- Quantity: 0.20 L (0.21 US qt, 0.18 Imp.qt)"
+            },
+            {
+               "description": "Change. ",
+               "intervalKm": 24000,
+               "intervalMonths": 24,
+               "km": 1000,
+               "months": 1,
+               "name": "Change final gear oil",
+               "notes": "- Type: Yamaha genuine shaft drive gear oil SAE, 80W-90 API GL-5 or SAE 80 API GL-4, Hypoid gear oil\n- Quantity: 0.20 L (0.21 US qt, 0.18 Imp.qt)"
+            },
+            {
+               "description": "Check operation. ",
+               "intervalKm": 6000,
+               "intervalMonths": 6,
+               "km": 1000,
+               "level": "pro",
+               "months": 1,
+               "name": "Front and rear brake switches"
+            },
+            {
+               "description": "Check operation, see Notes for more. ",
+               "intervalKm": 6000,
+               "intervalMonths": 6,
+               "level": "pro",
+               "name": "Throttle grip",
+               "notes": "• Check throttle grip free play, and adjust if necessary.\n• Lubricate cable and grip housing.\n• Lubricate grip warmer wire and wire housing."
+            },
+            {
+               "description": "Check operation. Adjust headlight beam.",
+               "intervalKm": 6000,
+               "intervalMonths": 6,
+               "km": 1000,
+               "level": "pro",
+               "months": 1,
+               "name": "Lights, signals and switches"
+            }
+         ]
       }
    ]
 }
