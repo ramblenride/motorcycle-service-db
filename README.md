@@ -6,7 +6,7 @@
 
 > A database of motorcycle service schedules
 
-A simple collection of JSON files describing the service information for various motorcycles. The file format is described in [moto-service.schema.json](moto-service.schema.json).
+A simple collection of JSON files describing the service information for various motorcycles. The file format is described in [moto-service.schema.json](src/moto-service.schema.json).
 
 A JSON file that contains all the entries can be generated using Node.js:
 
@@ -15,7 +15,7 @@ A JSON file that contains all the entries can be generated using Node.js:
 > npm run build
 ```
 
-The generated file is compliant with the specification in [moto-service.schema.json](moto-service.schema.json). An index file is also generated.
+The generated file is compliant with the specification in [moto-service.schema.json](src/moto-service.schema.json). An index file is also generated.
 
 The output files are created in the ```dist``` directory.
 
@@ -29,9 +29,7 @@ The short javascript code used to build the DB from the individual JSON files is
 
 ## Contributing
 
-Thank you for your interest in contributing to this project!
-
-Contributions are welcome. To submit the service information for a new motorcycle, or correct an existing one, please submit a pull request.
+Thank you for your interest in contributing to this project! Contributions are welcome.
 
 By contributing, you accept that the above license applies to your contribution.
 

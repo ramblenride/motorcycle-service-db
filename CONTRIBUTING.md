@@ -18,4 +18,4 @@ You can also attach the updated file(s) to a bug report, or as a last resort, yo
 
 The templates are stored in simple JSON files that can be edited with any text editor. However, this can be tedious so it is recommended to use the [Braap!](https://ramblenride.github.io/braap/viewer/) web editor.
 
-Before submitting the files, please add the file to the ```src``` directory and execute the project build script (`npm run build`) to format the file correctly and validate there is no error.
+Before submitting the files, please add the file to the `src` directory and execute the project build script (`npm run build`) to format the file correctly and validate there is no error.
