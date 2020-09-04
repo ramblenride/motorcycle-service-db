@@ -8,36 +8,36 @@
                "description": "Check fuel hoses for cracks or damage. Replace if necessary.",
                "intervalKm": 6000,
                "intervalMonths": 6,
-               "level": "pro",
-               "name": "Fuel Line"
+               "name": "Fuel Line",
+               "technicalLevel": "pro"
             },
             {
                "description": "Check condition. Adjust gap and clean.",
                "intervalKm": 6000,
                "intervalMonths": 6,
-               "level": "pro",
-               "name": "Spark Plugs"
+               "name": "Spark Plugs",
+               "technicalLevel": "pro"
             },
             {
                "description": "Replace",
                "km": 19000,
-               "level": "pro",
                "months": 18,
                "name": "Replace spark plugs",
-               "notes": ""
+               "notes": "",
+               "technicalLevel": "pro"
             },
             {
                "description": "Check and adjust valve clearance when engine is cold.",
                "km": 420000,
-               "level": "pro",
-               "name": "Valve Clearance"
+               "name": "Valve Clearance",
+               "technicalLevel": "pro"
             },
             {
                "description": "Check breather hose for cracks or damage. Replace is necessary.",
                "intervalKm": 6000,
                "intervalMonths": 6,
-               "level": "pro",
-               "name": "Crankcase Breather System"
+               "name": "Crankcase Breather System",
+               "technicalLevel": "pro"
             },
             {
                "description": "Adjust synchronization.",
@@ -50,113 +50,113 @@
                "intervalKm": 6,
                "intervalMonths": 6000,
                "km": 1000,
-               "level": "pro",
                "months": 1,
-               "name": "Exhaust  System"
+               "name": "Exhaust  System",
+               "technicalLevel": "pro"
             },
             {
                "description": "Perform dynamic inspection using Yamaha diagnostic tool. Check the error codes.",
                "intervalKm": 6000,
                "intervalMonths": 6,
                "km": 1000,
-               "level": "pro",
                "months": 1,
-               "name": "Diagnostic System Check"
+               "name": "Diagnostic System Check",
+               "technicalLevel": "pro"
             },
             {
                "description": "Replace.",
                "km": 37000,
-               "level": "pro",
-               "name": "Replace air filter element."
+               "name": "Replace air filter element.",
+               "technicalLevel": "pro"
             },
             {
                "description": "Check operation, fluid level and for fluid leakage. Correct if necessary.",
                "intervalKm": 6000,
                "intervalMonths": 6,
                "km": 1000,
-               "level": "pro",
                "months": 1,
-               "name": "Clutch"
+               "name": "Clutch",
+               "technicalLevel": "pro"
             },
             {
                "description": "Check operation, fluid level and for fluid leakage. Replace brake pads if necessary.",
                "intervalKm": 6000,
                "intervalMonths": 6,
                "km": 1000,
-               "level": "pro",
                "months": 1,
-               "name": "Front brake"
+               "name": "Front brake",
+               "technicalLevel": "pro"
             },
             {
                "description": "Check operation, fluid level and for fluid leakage. Replace brake pads if necessary.",
                "intervalKm": 6000,
                "intervalMonths": 6,
                "km": 1000,
-               "level": "pro",
                "months": 1,
-               "name": "Rear brake"
+               "name": "Rear brake",
+               "technicalLevel": "pro"
             },
             {
                "description": "Check for cracks or damage. Check for correct routing and clamping.",
                "intervalKm": 6000,
                "intervalMonths": 6,
-               "level": "pro",
-               "name": "Brake hoses"
+               "name": "Brake hoses",
+               "technicalLevel": "pro"
             },
             {
                "description": "Replace.",
-               "level": "pro",
                "months": 48,
-               "name": "Replace brake hoses"
+               "name": "Replace brake hoses",
+               "technicalLevel": "pro"
             },
             {
                "description": "Change.",
-               "level": "pro",
                "months": 24,
-               "name": "Change brake fluid"
+               "name": "Change brake fluid",
+               "technicalLevel": "pro"
             },
             {
                "description": "Check rim runout and spokes for damage. Tighten all spokes.",
                "intervalKm": 6000,
                "intervalMonths": 6,
                "km": 1000,
-               "level": "pro",
                "months": 1,
-               "name": "Wheels"
+               "name": "Wheels",
+               "technicalLevel": "pro"
             },
             {
                "description": "Check tread depth and for damage. Replace if necessary. Check air pressure. Correct if necessary.",
                "intervalKm": 6000,
                "intervalMonths": 6,
-               "level": "pro",
-               "name": "Tires"
+               "name": "Tires",
+               "technicalLevel": "pro"
             },
             {
                "description": "Check bearings for smooth operation. Replace if necessary.",
                "intervalKm": 6000,
                "intervalMonths": 6,
-               "level": "pro",
-               "name": "Wheel bearings"
+               "name": "Wheel bearings",
+               "technicalLevel": "pro"
             },
             {
                "description": "Check operation and for excessive play.",
                "intervalKm": 6000,
                "intervalMonths": 6,
-               "level": "pro",
-               "name": "Swingarm pivot bearings"
+               "name": "Swingarm pivot bearings",
+               "technicalLevel": "pro"
             },
             {
                "description": "Moderately repack with lithium-soap-based grease.",
                "km": 25000,
-               "level": "pro",
-               "name": "Swingarm pivot bearings"
+               "name": "Swingarm pivot bearings",
+               "technicalLevel": "pro"
             },
             {
                "description": "Check all chassis fitting and fasteners. Correct if necessary.",
                "intervalKm": 6000,
                "intervalMonths": 6,
-               "level": "pro",
-               "name": "Chassis fasteners"
+               "name": "Chassis fasteners",
+               "technicalLevel": "pro"
             },
             {
                "description": "Apply silicone grease lightly.",
@@ -193,23 +193,23 @@
                "intervalKm": 6000,
                "intervalMonths": 6,
                "km": 1000,
-               "level": "pro",
                "months": 1,
-               "name": "Sidestand switch"
+               "name": "Sidestand switch",
+               "technicalLevel": "pro"
             },
             {
                "description": "Check operation and for oil leakage. Replace if necessary.",
                "intervalKm": 6000,
                "intervalMonths": 6,
-               "level": "pro",
-               "name": "Front fork"
+               "name": "Front fork",
+               "technicalLevel": "pro"
             },
             {
                "description": "Check operation. Correct if necessary.",
                "intervalKm": 12000,
                "intervalMonths": 12,
-               "level": "pro",
-               "name": "Rear suspension link pivots"
+               "name": "Rear suspension link pivots",
+               "technicalLevel": "pro"
             },
             {
                "description": "Change (warm engine before draining).",
@@ -232,16 +232,16 @@
                "description": "Check coolant level and vehicle for coolant leakage.",
                "intervalKm": 6000,
                "intervalMonths": 6,
-               "level": "pro",
                "name": "Cooling system",
-               "notes": "- Coolant reservoir (up to the maximum level mark): 0.26 L (0.27 US qt, 0.23 Imp.qt)\n- Radiator (including all routes): 1.83 L (1.93 US qt, 1.61 Imp.qt)"
+               "notes": "- Coolant reservoir (up to the maximum level mark): 0.26 L (0.27 US qt, 0.23 Imp.qt)\n- Radiator (including all routes): 1.83 L (1.93 US qt, 1.61 Imp.qt)",
+               "technicalLevel": "pro"
             },
             {
                "description": "Change.",
-               "level": "pro",
                "months": 36,
                "name": "Change cooling system",
-               "notes": "- Coolant reservoir (up to the maximum level mark): 0.26 L (0.27 US qt, 0.23 Imp.qt)\n- Radiator (including all routes): 1.83 L (1.93 US qt, 1.61 Imp.qt"
+               "notes": "- Coolant reservoir (up to the maximum level mark): 0.26 L (0.27 US qt, 0.23 Imp.qt)\n- Radiator (including all routes): 1.83 L (1.93 US qt, 1.61 Imp.qt",
+               "technicalLevel": "pro"
             },
             {
                "description": "Check oil level and for oil leakage.",
@@ -264,26 +264,26 @@
                "intervalKm": 6000,
                "intervalMonths": 6,
                "km": 1000,
-               "level": "pro",
                "months": 1,
-               "name": "Front and rear brake switches"
+               "name": "Front and rear brake switches",
+               "technicalLevel": "pro"
             },
             {
                "description": "Check operation, see Notes for more.",
                "intervalKm": 6000,
                "intervalMonths": 6,
-               "level": "pro",
                "name": "Throttle grip",
-               "notes": "• Check throttle grip free play, and adjust if necessary.\n• Lubricate cable and grip housing.\n• Lubricate grip warmer wire and wire housing."
+               "notes": "• Check throttle grip free play, and adjust if necessary.\n• Lubricate cable and grip housing.\n• Lubricate grip warmer wire and wire housing.",
+               "technicalLevel": "pro"
             },
             {
                "description": "Check operation. Adjust headlight beam.",
                "intervalKm": 6000,
                "intervalMonths": 6,
                "km": 1000,
-               "level": "pro",
                "months": 1,
-               "name": "Lights, signals and switches"
+               "name": "Lights, signals and switches",
+               "technicalLevel": "pro"
             }
          ]
       }

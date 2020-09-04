@@ -7,15 +7,15 @@
             {
                "description": "Inspect the fuel line.",
                "intervalKm": 12800,
-               "level": "intermediate",
-               "name": "Fuel line"
+               "name": "Fuel line",
+               "technicalLevel": "intermediate"
             },
             {
                "description": "Inspect the throttle operation.",
                "intervalKm": 12800,
-               "level": "intermediate",
                "name": "Throttle operation",
-               "notes": "With the engine off, check that the throttle rotates smoothly from fully closed to fully open.\nIf the throttle does not move smoothly, or close automatically, have the motorcycle inspected by your dealer."
+               "notes": "With the engine off, check that the throttle rotates smoothly from fully closed to fully open.\nIf the throttle does not move smoothly, or close automatically, have the motorcycle inspected by your dealer.",
+               "technicalLevel": "intermediate"
             },
             {
                "description": "Replace the air cleaner element.",
@@ -44,8 +44,8 @@
             {
                "description": "Inspect the valve clearance.",
                "intervalKm": 25600,
-               "level": "intermediate",
-               "name": "Valve clearance"
+               "name": "Valve clearance",
+               "technicalLevel": "intermediate"
             },
             {
                "description": "Replace the engine oil and filter.",
@@ -69,8 +69,8 @@
             {
                "description": "Replace the radiator coolant.",
                "intervalMonths": 36,
-               "level": "intermediate",
-               "name": "Radiator coolant"
+               "name": "Radiator coolant",
+               "technicalLevel": "intermediate"
             },
             {
                "description": "Replace the clutch oil filter (if equipped).",
@@ -81,26 +81,26 @@
             {
                "description": "Inspect the engine idle speed.",
                "intervalKm": 12800,
-               "level": "intermediate",
-               "name": "Engine idle speed"
+               "name": "Engine idle speed",
+               "technicalLevel": "intermediate"
             },
             {
                "description": "Inspect the cooling system.",
                "intervalKm": 12800,
-               "level": "intermediate",
-               "name": "Cooling system"
+               "name": "Cooling system",
+               "technicalLevel": "intermediate"
             },
             {
                "description": "Inspect the secondary air supply system.",
                "intervalKm": 25600,
-               "level": "intermediate",
-               "name": "Secondary air supply system"
+               "name": "Secondary air supply system",
+               "technicalLevel": "intermediate"
             },
             {
                "description": "Inspect the evaporative emission control system.",
                "intervalKm": 25600,
-               "level": "intermediate",
-               "name": "Evaporative emission system"
+               "name": "Evaporative emission system",
+               "technicalLevel": "intermediate"
             },
             {
                "description": "Inspect and lubricate the drive chain.",
@@ -121,8 +121,8 @@
             {
                "description": "Replace the brake fluid.",
                "intervalMonths": 24,
-               "level": "intermediate",
-               "name": "Brake fluid"
+               "name": "Brake fluid",
+               "technicalLevel": "intermediate"
             },
             {
                "description": "Inspect the brake pads wear.",
@@ -142,8 +142,8 @@
             {
                "description": "Inspect the brake lock operation.",
                "intervalKm": 6400,
-               "level": "intermediate",
-               "name": "Brake lock operation"
+               "name": "Brake lock operation",
+               "technicalLevel": "intermediate"
             },
             {
                "description": "Inspect the headlight aim.",
@@ -164,34 +164,34 @@
             {
                "description": "Inspect the suspension.",
                "intervalKm": 12800,
-               "level": "intermediate",
-               "name": "Suspension"
+               "name": "Suspension",
+               "technicalLevel": "intermediate"
             },
             {
                "description": "Clean the spark arrestor (if equipped).",
                "intervalKm": 6400,
-               "level": "intermediate",
-               "name": "Spark arrestor"
+               "name": "Spark arrestor",
+               "technicalLevel": "intermediate"
             },
             {
                "description": "Inspect and tighten the nuts, bolts, and fasteners.",
                "intervalKm": 12800,
-               "level": "intermediate",
                "name": "Nuts, bolts, fasteners",
-               "notes": "Service more frequently when riding off-road."
+               "notes": "Service more frequently when riding off-road.",
+               "technicalLevel": "intermediate"
             },
             {
                "description": "Inspect the wheels and tires.",
                "intervalKm": 6400,
-               "level": "pro",
                "name": "Wheels / Tires",
-               "notes": "Service more frequently when riding off-road."
+               "notes": "Service more frequently when riding off-road.",
+               "technicalLevel": "pro"
             },
             {
                "description": "Inspect the steering head bearings.",
                "intervalKm": 12800,
-               "level": "pro",
-               "name": "Steering head bearings"
+               "name": "Steering head bearings",
+               "technicalLevel": "pro"
             }
          ]
       }

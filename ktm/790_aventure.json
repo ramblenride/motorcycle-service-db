@@ -9,16 +9,16 @@
                "intervalKm": 15000,
                "intervalMonths": 12,
                "km": 1000,
-               "level": "pro",
-               "name": "Trouble code memory"
+               "name": "Trouble code memory",
+               "technicalLevel": "pro"
             },
             {
                "description": "Program the shift shaft sensor.",
                "intervalKm": 15000,
                "intervalMonths": 12,
                "km": 1000,
-               "level": "pro",
-               "name": "Shift shaft sensor"
+               "name": "Shift shaft sensor",
+               "technicalLevel": "pro"
             },
             {
                "description": "Check that the electrical system is functionning properly.",
@@ -32,7 +32,6 @@
                "intervalKm": 15000,
                "intervalMonths": 12,
                "km": 1000,
-               "level": "pro",
                "links": [
                   {
                      "name": "How-to video",
@@ -40,7 +39,8 @@
                   }
                ],
                "name": "Engine oil",
-               "notes": "Use SAE 10W/50, JASO T903 MA2. Fully synthetic oil.\nRecommended: MOTOREX ® Power Synt 4T"
+               "notes": "Use SAE 10W/50, JASO T903 MA2. Fully synthetic oil.\nRecommended: MOTOREX ® Power Synt 4T",
+               "technicalLevel": "pro"
             },
             {
                "description": "Check the front and rear brake linings, and the discs,.",
@@ -55,8 +55,8 @@
                "intervalKm": 15000,
                "intervalMonths": 12,
                "km": 1000,
-               "level": "pro",
-               "name": "Brake lines"
+               "name": "Brake lines",
+               "technicalLevel": "pro"
             },
             {
                "description": "Check the brake fluid level",
@@ -67,9 +67,9 @@
             {
                "description": "Change brake fluid.",
                "intervalMonths": 24,
-               "level": "pro",
                "name": "Brake fluid",
-               "notes": "Use DOT 4 or DOT 5.1.\nRecommended: \n- Castrol REACT PERFORMANCE DOT 4\n- MOTOREX ® Brake Fluid DOT 5.1"
+               "notes": "Use DOT 4 or DOT 5.1.\nRecommended: \n- Castrol REACT PERFORMANCE DOT 4\n- MOTOREX ® Brake Fluid DOT 5.1",
+               "technicalLevel": "pro"
             },
             {
                "description": "Check the free travel of the clutch lever.",
@@ -90,15 +90,15 @@
                "intervalKm": 15000,
                "intervalMonths": 12,
                "km": 1000,
-               "level": "pro",
                "name": "Shock absorber and forks",
-               "notes": "Perform service as needed and depending on how the vehicle is used."
+               "notes": "Perform service as needed and depending on how the vehicle is used.",
+               "technicalLevel": "pro"
             },
             {
                "description": "Check the dust boots of the fork legs.",
                "intervalKm": 15000,
-               "level": "pro",
-               "name": "Dust boots"
+               "name": "Dust boots",
+               "technicalLevel": "pro"
             },
             {
                "description": "Check the steering head bearing play.",
@@ -117,8 +117,8 @@
             {
                "description": "Retighten the spokes.",
                "km": 1000,
-               "level": "pro",
-               "name": "Spokes"
+               "name": "Spokes",
+               "technicalLevel": "pro"
             },
             {
                "description": "Check the spokes tension.",
@@ -131,8 +131,8 @@
                "intervalKm": 15000,
                "intervalMonths": 12,
                "km": 1000,
-               "level": "pro",
-               "name": "Rims"
+               "name": "Rims",
+               "technicalLevel": "pro"
             },
             {
                "description": "Check the chain, rear sprocket, engine sprocket, and chain guide.",
@@ -150,43 +150,43 @@
             {
                "description": "Change the spark plugs.",
                "intervalKm": 30000,
-               "level": "pro",
                "name": "Spark plugs",
-               "notes": "Spark plugs: NGK LMAR9AI‐10\nElectrode gap: 1.0 mm (0.039 in)"
+               "notes": "Spark plugs: NGK LMAR9AI‐10\nElectrode gap: 1.0 mm (0.039 in)",
+               "technicalLevel": "pro"
             },
             {
                "description": "Check the valve clearance",
                "intervalKm": 15000,
-               "level": "pro",
-               "name": "Valve clearance"
+               "name": "Valve clearance",
+               "technicalLevel": "pro"
             },
             {
                "description": "Check the coolant fill level and antifreeze.",
                "intervalKm": 15000,
                "intervalMonths": 12,
                "km": 1000,
-               "level": "pro",
-               "name": "Coolant and antifreeze"
+               "name": "Coolant and antifreeze",
+               "technicalLevel": "pro"
             },
             {
                "description": "Check the cables for damage and for routing without kinks.",
                "intervalKm": 15000,
                "intervalMonths": 12,
-               "level": "pro",
-               "name": "Cables"
+               "name": "Cables",
+               "technicalLevel": "pro"
             },
             {
                "description": "Change the air filter and clean the air filter box.",
                "intervalKm": 15000,
-               "level": "pro",
-               "name": "Air filter"
+               "name": "Air filter",
+               "technicalLevel": "pro"
             },
             {
                "description": "Check the fuel pressure.",
                "intervalKm": 15000,
                "intervalMonths": 12,
-               "level": "pro",
-               "name": "Fuel pressure"
+               "name": "Fuel pressure",
+               "technicalLevel": "pro"
             },
             {
                "description": "Check the headlight setting.",
@@ -199,59 +199,59 @@
                "intervalKm": 15000,
                "intervalMonths": 12,
                "km": 1000,
-               "level": "pro",
-               "name": "Radiator fan"
+               "name": "Radiator fan",
+               "technicalLevel": "pro"
             },
             {
                "description": "Check the vehicle is roadworthy and take a test ride.",
                "intervalKm": 15000,
                "intervalMonths": 12,
                "km": 1000,
-               "level": "pro",
-               "name": "Final check"
+               "name": "Final check",
+               "technicalLevel": "pro"
             },
             {
                "description": "Read out the error memory after the test ride using the KTM dignostics tool.",
                "intervalKm": 15000,
                "intervalMonths": 12,
                "km": 1000,
-               "level": "pro",
-               "name": "Error memory"
+               "name": "Error memory",
+               "technicalLevel": "pro"
             },
             {
                "description": "Set the service interval display.",
                "intervalKm": 15000,
                "intervalMonths": 12,
                "km": 1000,
-               "level": "pro",
-               "name": "Service interval display."
+               "name": "Service interval display.",
+               "technicalLevel": "pro"
             },
             {
                "description": "Make a service entry in KTM Dealers.net",
                "intervalKm": 15000,
                "intervalMonths": 12,
                "km": 1000,
-               "level": "pro",
-               "name": "Service entry"
+               "name": "Service entry",
+               "technicalLevel": "pro"
             },
             {
                "description": "Check the frame.",
                "intervalKm": 30000,
-               "level": "pro",
-               "name": "Frame"
+               "name": "Frame",
+               "technicalLevel": "pro"
             },
             {
                "description": "Check the link fork.",
                "intervalKm": 30000,
-               "level": "pro",
-               "name": "Link fork"
+               "name": "Link fork",
+               "technicalLevel": "pro"
             },
             {
                "description": "Check/clean the oil nozzle for clutch lubrication.",
                "intervalKm": 15000,
                "km": 1000,
-               "level": "pro",
-               "name": "Oil nozzle"
+               "name": "Oil nozzle",
+               "technicalLevel": "pro"
             },
             {
                "description": "Check the fork bearing for play.",
@@ -266,41 +266,41 @@
             {
                "description": "Change the coolant",
                "intervalMonths": 48,
-               "level": "pro",
-               "name": "Coolant"
+               "name": "Coolant",
+               "technicalLevel": "pro"
             },
             {
                "description": "Empty the drainage hoses.",
                "intervalKm": 15000,
                "intervalMonths": 12,
                "km": 1000,
-               "level": "pro",
-               "name": "Drainage hoses"
+               "name": "Drainage hoses",
+               "technicalLevel": "pro"
             },
             {
                "description": "Check all the hoses and sleeves for cracking, leaks, and incorrect routing.",
                "intervalKm": 15000,
                "intervalMonths": 12,
-               "level": "pro",
                "name": "Hoses",
-               "notes": "e.g. fuel, cooling, bleeder, drainage, etc."
+               "notes": "e.g. fuel, cooling, bleeder, drainage, etc.",
+               "technicalLevel": "pro"
             },
             {
                "description": "Grease all moving parts and check for smooth operation.",
                "intervalKm": 15000,
                "intervalMonths": 12,
                "km": 1000,
-               "level": "pro",
                "name": "Grease",
-               "notes": "e.g., side stand, hand lever, chain, ..."
+               "notes": "e.g., side stand, hand lever, chain, ...",
+               "technicalLevel": "pro"
             },
             {
                "description": "Check the tightness of the safety-relevant screws and nuts which are easily accessible.",
                "intervalKm": 15000,
                "intervalMonths": 12,
                "km": 1000,
-               "level": "pro",
-               "name": "Screws and nuts"
+               "name": "Screws and nuts",
+               "technicalLevel": "pro"
             }
          ]
       }
