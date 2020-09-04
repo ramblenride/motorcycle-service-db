@@ -19,12 +19,12 @@
                "name": "Spark Plugs"
             },
             {
-               "description": "Replacce",
+               "description": "Replace",
                "km": 19000,
                "level": "pro",
                "months": 18,
                "name": "Replace spark plugs",
-               "notes": "\n"
+               "notes": ""
             },
             {
                "description": "Check and adjust valve clearance when engine is cold.",
@@ -248,7 +248,7 @@
                "intervalKm": 6000,
                "intervalMonths": 6,
                "name": "Final gear oil",
-               "notes": "At 24 000, change. \n\n- Type: Yamaha genuine shaft drive gear oil SAE, 80W-90 API GL-5 or SAE 80 API GL-4, Hypoid gear oil\n- Quantity: 0.20 L (0.21 US qt, 0.18 Imp.qt)"
+               "notes": "Change at 24000km.\n\n- Type: Yamaha genuine shaft drive gear oil SAE, 80W-90 API GL-5 or SAE 80 API GL-4, Hypoid gear oil\n- Quantity: 0.20 L (0.21 US qt, 0.18 Imp.qt)"
             },
             {
                "description": "Change.",

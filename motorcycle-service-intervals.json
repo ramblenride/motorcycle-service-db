@@ -15,10 +15,10 @@
                "intervalKm": 12800,
                "level": "intermediate",
                "name": "Throttle operation",
-               "notes": "With the engine off, check that the throttle rotates smoothly from fully closed to fully open.\nIf the throttle does not move smoothly, close automatically, have the motorcycle inspected by your dealer."
+               "notes": "With the engine off, check that the throttle rotates smoothly from fully closed to fully open.\nIf the throttle does not move smoothly, or close automatically, have the motorcycle inspected by your dealer."
             },
             {
-               "description": "Replace the air cleaner.",
+               "description": "Replace the air cleaner element.",
                "intervalKm": 19200,
                "links": [
                   {
@@ -36,7 +36,7 @@
                "notes": "Service more frequently when riding in rain or at full throttle."
             },
             {
-               "description": "Inspect and/or replace spark plugs.",
+               "description": "Inspect and/or replace the spark plugs.",
                "intervalKm": 25600,
                "name": "Spark plugs",
                "notes": "Inspect (clean, adjust, lubricate, or replace if necessary) every 25600 km / 16000 miles.\nReplace every 51200 km / 32000 miles.\nStandard spark plug: NGK SILMAR8A9S\nSpark plug gap: 0.03 - 0.04 in (0.8 - 0.9 mm)"
@@ -59,7 +59,7 @@
                   }
                ],
                "name": "Engine oil",
-               "notes": "Replace the filter at the inital oil change and then at every other oil change.\nUse SAE 10W-30 with classification SG or higher. JASO T 903 standard: MA. Do not use resource conserving or energy conserving oil."
+               "notes": "Replace the filter at the initial oil change and then at every other oil change.\nUse SAE 10W-30 with classification SG or higher. JASO T 903 standard: MA.\nDo not use resource conserving or energy conserving oil."
             },
             {
                "description": "Inspect the radiator coolant.",
@@ -85,7 +85,7 @@
                "name": "Engine idle speed"
             },
             {
-               "description": "Inspect cooling system.",
+               "description": "Inspect the cooling system.",
                "intervalKm": 12800,
                "level": "intermediate",
                "name": "Cooling system"
@@ -154,7 +154,7 @@
                "description": "Inspect the clutch lever freeplay (if equipped).",
                "intervalKm": 6400,
                "name": "Clutch system",
-               "notes": "Inpect and adjust the clutch lever freeplay at 3/8 - 13/16 in(10 - 20 mm). Check the clutch cable for any sign of wear."
+               "notes": "Inpect and adjust the clutch lever freeplay at 3/8 - 13/16 in (10 - 20 mm). Check the clutch cable for any sign of wear."
             },
             {
                "description": "Inspect the side stand.",
@@ -909,12 +909,12 @@
                "name": "Spark Plugs"
             },
             {
-               "description": "Replacce",
+               "description": "Replace",
                "km": 19000,
                "level": "pro",
                "months": 18,
                "name": "Replace spark plugs",
-               "notes": "\n"
+               "notes": ""
             },
             {
                "description": "Check and adjust valve clearance when engine is cold.",
@@ -1138,7 +1138,7 @@
                "intervalKm": 6000,
                "intervalMonths": 6,
                "name": "Final gear oil",
-               "notes": "At 24 000, change. \n\n- Type: Yamaha genuine shaft drive gear oil SAE, 80W-90 API GL-5 or SAE 80 API GL-4, Hypoid gear oil\n- Quantity: 0.20 L (0.21 US qt, 0.18 Imp.qt)"
+               "notes": "Change at 24000km.\n\n- Type: Yamaha genuine shaft drive gear oil SAE, 80W-90 API GL-5 or SAE 80 API GL-4, Hypoid gear oil\n- Quantity: 0.20 L (0.21 US qt, 0.18 Imp.qt)"
             },
             {
                "description": "Change.",
