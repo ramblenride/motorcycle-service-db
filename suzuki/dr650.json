@@ -125,15 +125,6 @@
                "notes": "Inspect the fluid level (front and back).\nInspect the brake system and hoses for signs of fluid leakage.\nThe brake lever and pedal should have proper stroke and be firm at all times.\nCheck the wear of the disc brake pads."
             },
             {
-               "description": "Inspect the brakes.",
-               "intervalKm": 6000,
-               "intervalMonths": 12,
-               "km": 1000,
-               "months": 2,
-               "name": "Brakes",
-               "notes": "Inspect the fluid level (front and back).\nInspect the brake system and hoses for signs of fluid leakage.\nThe brake lever and pedal should have proper stroke and be firm at all times.\nCheck the wear of the disc brake pads."
-            },
-            {
                "description": "Replace the brake hoses.",
                "intervalMonths": 48,
                "name": "Replace brake hoses"
