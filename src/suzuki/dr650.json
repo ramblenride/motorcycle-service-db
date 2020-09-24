@@ -2,7 +2,7 @@
    "motorcycles": [
       {
          "description": "All variants of the Suzuki DR650 from 1996 to now.",
-         "name": "Suzuki DR650 1996 -",
+         "name": "Suzuki DR650 1996+",
          "tasks": [
             {
                "description": "Measure and adjust the valve clearance.",
