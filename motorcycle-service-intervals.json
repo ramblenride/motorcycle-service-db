@@ -501,7 +501,7 @@
       },
       {
          "description": "All variants of the Suzuki DR650 from 1996 to now.",
-         "name": "Suzuki DR650 1996 -",
+         "name": "Suzuki DR650 1996+",
          "tasks": [
             {
                "description": "Measure and adjust the valve clearance.",
@@ -694,7 +694,7 @@
       },
       {
          "description": "The S/SM variants of the Suzuki DRZ400 from 2001 to now.",
-         "name": "Suzuki DRZ400 S/SM 2001 -",
+         "name": "Suzuki DRZ400 S/SM 2001+",
          "tasks": [
             {
                "description": "Clean and oil the air filter.",
