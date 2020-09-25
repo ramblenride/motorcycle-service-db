@@ -500,6 +500,353 @@
          ]
       },
       {
+         "description": "The injected version of the Royal Enfield Himalayan from 2016 to now.",
+         "name": "Royal Enfield Himalayan 2016+",
+         "tasks": [
+            {
+               "description": "Replace the engine oil and filter.",
+               "intervalKm": 10000,
+               "intervalMonths": 12,
+               "km": 500,
+               "links": [
+                  {
+                     "name": "How-to check oil level",
+                     "url": "https://www.youtube.com/watch?v=tKOTj1qqE8k"
+                  }
+               ],
+               "months": 2,
+               "name": "Engine oil",
+               "notes": "Check the oil level every 1000km / 600 miles.\n\nRecommended oil: SAE 15W 50 API SL Grade JASO MA 2 Semi Synthetic.\nCapacity: 2.3 Ltrs. (First Fill only ) 2.0 Ltrs. Approx. (during oil & filter element replacement in periodical\nmaintenance)."
+            },
+            {
+               "description": "Clean the oil strainer on crankcase LH.",
+               "intervalKm": 10000,
+               "intervalMonths": 12,
+               "km": 500,
+               "months": 2,
+               "name": "Engine oil strainer on crankcase"
+            },
+            {
+               "description": "Inspet and adjust inlet and exhaust tappet setting.",
+               "intervalKm": 5000,
+               "intervalMonths": 6,
+               "km": 500,
+               "months": 2,
+               "name": "Tappet setting"
+            },
+            {
+               "description": "Inspect or replace the rubber intake hose.",
+               "intervalKm": 10000,
+               "intervalMonths": 12,
+               "km": 500,
+               "months": 2,
+               "name": "Rubber hose, inlet manifold",
+               "notes": "Inspect every 6 months, 5000km. Replace every 12 months, 10000km."
+            },
+            {
+               "description": "Inspect or replace the oil cooler inlet and outlet pipes.",
+               "intervalKm": 15000,
+               "intervalMonths": 18,
+               "km": 500,
+               "months": 2,
+               "name": "Oil cooler inlet & outlet pipes",
+               "notes": "Inspect every 6 months, 5000km. Replace every 18 months, 15000km."
+            },
+            {
+               "description": "Clean and adjust the spark plug.",
+               "intervalKm": 5000,
+               "intervalMonths": 6,
+               "km": 500,
+               "links": [
+                  {
+                     "name": "Video how-to",
+                     "url": "https://www.youtube.com/watch?v=xYxOTPNa0yk"
+                  }
+               ],
+               "months": 2,
+               "name": "Spark plug",
+               "notes": "Spark plug: Bosch - UR5CC\nSpark plug gap: 0.7 to 0.8 mm\n\n- Remove spark plug using the plug spanner and tommy bar.\n- Clean the insulator tip and electrodes of the plug carefully.\n- Clean & adjust electrode gap every 500 km if required and replace every 15,000 kms.\n- Refit the spark plug on the cylinder head."
+            },
+            {
+               "description": "Inspect HT leads for cracks and replace if necessary.",
+               "intervalKm": 30000,
+               "intervalMonths": 36,
+               "km": 500,
+               "months": 2,
+               "name": "HT leads",
+               "notes": "Inspect every 6 months, 5000 km. Replace every 36 months, 30000km."
+            },
+            {
+               "description": "Inspect the fuel hose and related parts. Replace if necessary.",
+               "intervalKm": 15000,
+               "intervalMonths": 18,
+               "km": 500,
+               "months": 2,
+               "name": "Fuel Hose, Clip/ Injector ‘O’ ring/ Seal",
+               "notes": "Fuel Hose & Clip/ Injector ‘O’ ring/ Seal Ring.\n\nInspect every 6 months, 5000km. Replace every 18 months, 15000km.\n"
+            },
+            {
+               "description": "Inspect the fuel pump screw tighness.",
+               "intervalKm": 5000,
+               "intervalMonths": 6,
+               "km": 500,
+               "months": 2,
+               "name": "Fuel pump"
+            },
+            {
+               "description": "Clean or replace the air filter element.",
+               "intervalKm": 5000,
+               "intervalMonths": 6,
+               "km": 500,
+               "months": 2,
+               "name": "Air filter element",
+               "notes": "Clean every 6 months, 5000 km. Replace every 12 months, 10000km."
+            },
+            {
+               "description": "Inspect or replace the accelarator cable.",
+               "intervalKm": 10000,
+               "intervalMonths": 12,
+               "km": 500,
+               "months": 2,
+               "name": "Accelerator Cable",
+               "notes": "Inspect every 6 months, 5000km. Replace every 12 months, 10000km."
+            },
+            {
+               "description": "Inspect or replace the rubber hose, air filter to throttle body.",
+               "intervalKm": 10000,
+               "intervalMonths": 12,
+               "km": 500,
+               "months": 2,
+               "name": "Rubber Hose, air filter to throttle body",
+               "notes": "Inspect every 6 months, 5000km. Replace every 12 months, 10000km."
+            },
+            {
+               "description": "Inspect or replace the PAV pipes & hose clip.",
+               "intervalKm": 25000,
+               "intervalMonths": 30,
+               "km": 500,
+               "months": 2,
+               "name": "PAV pipes & hose clip",
+               "notes": "Inspect every 6 months, 5000km. Replace every 30 months, 25000km."
+            },
+            {
+               "description": "Clean the throttle body using cleaning spray.",
+               "intervalKm": 6000,
+               "intervalMonths": 6,
+               "km": 500,
+               "months": 2,
+               "name": "Throttle body",
+               "notes": "Use carb cleaner, carb click, or fuel line cleaner spray."
+            },
+            {
+               "description": "Inspect or replace the clutch cable.",
+               "intervalKm": 10000,
+               "intervalMonths": 12,
+               "km": 500,
+               "months": 2,
+               "name": "Clutch Cable",
+               "notes": "Inspect every 6 months, 5000km. Replace every 12 months, 10000km."
+            },
+            {
+               "description": "Adjust the clutch free play.",
+               "intervalKm": 1000,
+               "name": "Clutch free play"
+            },
+            {
+               "description": "Verify there is no clutch slippage.",
+               "intervalKm": 5000,
+               "intervalMonths": 6,
+               "km": 500,
+               "months": 2,
+               "name": "Clutch no slippage"
+            },
+            {
+               "description": "Replace the clutch plates.",
+               "intervalKm": 15000,
+               "intervalMonths": 18,
+               "name": "Clutch plates"
+            },
+            {
+               "description": "Inspect or replace the cam chain, chain pads, and auto chain tensioner.",
+               "intervalKm": 50000,
+               "intervalMonths": 60,
+               "km": 500,
+               "months": 2,
+               "name": "Cam chain, pads and tensioner",
+               "notes": "Inspect every 6 months, 5000km. Replace every 60 months, 50000km."
+            },
+            {
+               "description": "Perform compression test for the intet / exhaust valve seating.",
+               "intervalKm": 25000,
+               "intervalMonths": 30,
+               "name": "Inlet / exhaust valve seating"
+            },
+            {
+               "description": "Inspect, adjust, and lubricate the steering head bearings.",
+               "intervalKm": 5000,
+               "km": 500,
+               "months": 2,
+               "name": "Steering head bearings",
+               "notes": "Service more frequently when ridden in unusually wet or dusty areas."
+            },
+            {
+               "description": "Inspect or replace the front fork oil.",
+               "intervalKm": 15000,
+               "intervalMonths": 18,
+               "km": 500,
+               "months": 2,
+               "name": "Front fork oil",
+               "notes": "Inspect every 6 months, 5000km. Replace every 18 months, 15000km."
+            },
+            {
+               "description": "Inspect or replace the fuel pipe.",
+               "intervalKm": 10000,
+               "intervalMonths": 12,
+               "km": 500,
+               "months": 2,
+               "name": "Fuel pipe",
+               "notes": "Inspect every 6 months, 5000km. Replace every 12 months, 10000km."
+            },
+            {
+               "description": "Clean the battery terminals and apply petroleum jelly.",
+               "intervalKm": 5000,
+               "intervalMonths": 6,
+               "km": 500,
+               "links": [
+                  {
+                     "name": "Inspection video how-to",
+                     "url": "https://www.youtube.com/watch?v=Mcm5Oz9idF4"
+                  }
+               ],
+               "months": 2,
+               "name": "Battery terminals"
+            },
+            {
+               "description": "Inspect the earth wire eyelet tightness.",
+               "intervalKm": 10000,
+               "intervalMonths": 12,
+               "name": "Earth wire eyelet tightness"
+            },
+            {
+               "description": "Inspect or replace the hydraulic brake fluid (front & rear).",
+               "intervalKm": 10000,
+               "intervalMonths": 12,
+               "km": 500,
+               "months": 2,
+               "name": "Hydraulic brake fluid",
+               "notes": "Inspect every 6 months, 5000km. Replace every 12 months, 10000km.\nService more frequently when ridden in unusually wet or dusty areas."
+            },
+            {
+               "description": "Inspect or replace the hydraulic brake hose and washers (front & rear).",
+               "intervalKm": 20000,
+               "intervalMonths": 24,
+               "km": 500,
+               "months": 2,
+               "name": "Hydraulic brake hose and washers",
+               "notes": "Inspect every 6 months, 5000km. Replace every 24 months, 20000km.\nService more frequently when ridden in unusually wet or dusty areas."
+            },
+            {
+               "description": "Inspect or replace the brake pads (front & rear).",
+               "intervalKm": 10000,
+               "intervalMonths": 12,
+               "km": 500,
+               "months": 2,
+               "name": "Brake pads",
+               "notes": "Inspect every 6 months, 5000km. Replace every 12 months, 10000km.\nService more frequently when ridden in unusually wet or dusty areas."
+            },
+            {
+               "description": "Inspect the tire wear pattern (front & rear).",
+               "intervalKm": 25000,
+               "intervalMonths": 30,
+               "km": 500,
+               "months": 2,
+               "name": "Tire wear",
+               "notes": "Service more frequently when ridden in unusually wet or dusty areas.\nTire to be replaced if the tyre wear identification mark reached."
+            },
+            {
+               "description": "Inspect the spokes tightness / wheel rim run out (front & rear).",
+               "intervalKm": 5000,
+               "intervalMonths": 6,
+               "km": 500,
+               "months": 2,
+               "name": "Spokes tightness / wheel rim run out",
+               "notes": "Service more frequently when ridden in unusually wet or dusty areas."
+            },
+            {
+               "description": "Inspect front and rear wheel bearings for play.",
+               "intervalKm": 25000,
+               "intervalMonths": 30,
+               "km": 500,
+               "months": 2,
+               "name": "Wheel bearings",
+               "notes": "Inspect every 6 months, 5000km. Replace every 30 months, 25000km.\nService more frequently when ridden in unusually wet or dusty areas."
+            },
+            {
+               "description": "Inspect and lubricate the swingarm pivot bearings. Replace if necessary.",
+               "intervalKm": 5000,
+               "km": 500,
+               "months": 2,
+               "name": "Swingarm pivot bearings",
+               "notes": "Service more frequently when ridden in unusually wet or dusty areas."
+            },
+            {
+               "description": "Inspect and lubricate the rear suspension linkages. Replace if necessary.",
+               "intervalKm": 5000,
+               "km": 500,
+               "months": 2,
+               "name": "Rear suspension linkages",
+               "notes": "Service more frequently when ridden in unusually wet or dusty areas."
+            },
+            {
+               "description": "Clean, lubricate, and adjust the rear drive chain. Replace if necessary.",
+               "intervalKm": 1000,
+               "name": "Rear drive chain",
+               "notes": "Service more frequently when ridden in unusually wet or dusty areas."
+            },
+            {
+               "description": "Inspect or replace the drive chain and sprockets set.",
+               "intervalKm": 10000,
+               "intervalMonths": 12,
+               "km": 500,
+               "months": 2,
+               "name": "Drive chain and sprockets set",
+               "notes": "Inspect every 6 months, 5000km. Replace every 12 months, 10000km.\nService more frequently when ridden in unusually wet or dusty areas."
+            },
+            {
+               "description": "Inspect or replace the rear wheel cush drive rubbers.",
+               "intervalKm": 10000,
+               "intervalMonths": 12,
+               "km": 500,
+               "months": 2,
+               "name": "Rear wheel cush drive rubbers",
+               "notes": "Inspect every 6 months, 5000km. Replace every 12 months, 10000km.\nService more frequently when ridden in unusually wet or dusty areas."
+            },
+            {
+               "description": "Inspect and tighten all the mounting fasteners in vehicle.",
+               "intervalKm": 5000,
+               "intervalMonths": 6,
+               "km": 500,
+               "months": 2,
+               "name": "All mounting fasteners",
+               "notes": "Service more frequently when ridden in unusually wet or dusty areas."
+            },
+            {
+               "description": "Lubricate the hand levers, centre stand, side stand, rider & pillion foot rest, pivots & gear shift levers.",
+               "intervalKm": 1000,
+               "name": "Lubrication",
+               "notes": "Service more frequently when ridden in unusually wet or dusty areas."
+            },
+            {
+               "description": "Inspect or replace the evaporative emission equipment rubber hoses.",
+               "intervalKm": 15000,
+               "intervalMonths": 18,
+               "km": 500,
+               "months": 2,
+               "name": "Evaporative emission equipment"
+            }
+         ]
+      },
+      {
          "description": "All variants of the Suzuki DR650 from 1996 to now.",
          "name": "Suzuki DR650 1996+",
          "tasks": [
