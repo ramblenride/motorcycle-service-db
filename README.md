@@ -2,8 +2,6 @@
 
 ![Motorcycle Service DB](logo/moto-service-db-small.png)
 
-![Build CI](https://github.com/ramblenride/motorcycle-service-db/workflows/Build%20CI/badge.svg)
-
 > A database of motorcycle service schedules
 
 A simple collection of JSON files describing the service information for various motorcycles. The file format is described in [moto-service.schema.json](src/moto-service.schema.json).
@@ -17,7 +15,7 @@ A JSON file that contains all the entries can be generated using Node.js:
 
 The generated file is compliant with the specification in [moto-service.schema.json](src/moto-service.schema.json). An index file is also generated.
 
-The output files are created in the ```dist``` directory.
+The output files are created in the `dist` directory.
 
 ## License
 
@@ -37,5 +35,5 @@ Please see the [CONTRIBUTING](CONTRIBUTING.md) file in this repository for more 
 
 ## Projects using this database
 
-* [Braap!](https://ramblenride.github.io/braap/) : Motorcycle Service Template Viewer and Editor
-* [Moto Mecánico](https://github.com/ramblenride/moto-mecanico) : Mobile application for Motorcycle Maintenance
+- [Braap!](https://ramblenride.github.io/braap/) : Motorcycle Service Template Viewer and Editor
+- [Moto Mecanico](https://github.com/ramblenride/moto-mecanico) : Mobile application for Motorcycle Maintenance
