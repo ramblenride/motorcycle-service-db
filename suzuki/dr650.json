@@ -92,7 +92,7 @@
                ],
                "months": 2,
                "name": "Engine oil",
-               "notes": "Use SAE 10W-40 oil.\nAPI: SG, SH, SJ, or SL. JASO: MA.\nDo not use \"Energy Conserving\" oil.\nThe oil filter must be changed with every other oil change (12000 km / 7500 miles or 24 months)"
+               "notes": "Use SAE 10W-40 oil. API: SG, SH, SJ, or SL. JASO: MA.\nDo not use \"Energy Conserving\" oil.\nThe oil filter must be changed with every other oil change (12000 km / 7500 miles or 24 months).\nUse 2L then check the level after warming the engine. Add more if required. Do not overfill."
             },
             {
                "description": "Clean the fuel valve strainer.",
@@ -133,7 +133,7 @@
                "description": "Replace the brake fluid.",
                "intervalMonths": 24,
                "name": "Replace brake fluid",
-               "notes": "Clean the filler cap before removing. Use only DOT4 brake fluid from a sealed container."
+               "notes": "Clean the filler cap before removing. Use only DOT 4 brake fluid from a sealed container."
             },
             {
                "description": "Inspect and clean the steering.",
@@ -163,7 +163,7 @@
                "intervalKm": 6000,
                "intervalMonths": 12,
                "name": "Tires",
-               "notes": "Inspect and clean, adjust, replace or lubricate as necessary."
+               "notes": "Inspect and clean, adjust, or replace as necessary."
             },
             {
                "description": "Clean the spark arrestor (if equipped).",
