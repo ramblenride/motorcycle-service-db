@@ -2,8 +2,6 @@
 
 ![Motorcycle Service DB](logo/moto-service-db-small.png)
 
-> A database of motorcycle service schedules
-
 A simple collection of JSON files describing the service information for various motorcycles. The file format is described in [moto-service.schema.json](src/moto-service.schema.json).
 
 A JSON file that contains all the entries can be generated using Node.js:
